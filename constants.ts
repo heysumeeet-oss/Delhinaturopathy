@@ -7,7 +7,7 @@ export const WHATSAPP = "918874206748";
 export const EMAIL = "biotb.instantreply@gmail.com";
 
 // Keyword-rich introduction
-export const HERO_TITLE = "Best Naturopathy Clinic in Lucknow";
+export const HERO_TITLE = "#1 Naturopathy in Lucknow";
 export const HERO_SUBTITLE = "Restore your health through the power of Nature. A drugless, holistic healing center in the heart of Lucknow.";
 
 export const PRINCIPLES: PrincipleItem[] = [
@@ -263,13 +263,13 @@ export const CONDITIONS: ConditionItem[] = [
 ];
 
 export const DOCTOR: DoctorProfile = {
-  name: "Dr. Aarav Verma",
+  name: "Dr. Ravi Gupta",
   title: "Senior Naturopath & Yoga Consultant",
   qualifications: ["B.N.Y.S (Bachelor of Naturopathy & Yogic Sciences)", "Diploma in Acupressure", "Certified Nutritionist"],
   specializations: ["Chronic Pain Management", "Diabetes Reversal", "Detoxification Specialist"],
   experience: "15+ Years",
   bio: [
-    "Dr. Aarav Verma is a renowned Naturopath in Lucknow dedicated to the cause of natural living. With over 15 years of clinical experience, he has successfully treated over 5000+ patients with chronic ailments.",
+    "Dr. Ravi Gupta is a renowned Naturopath in Lucknow dedicated to the cause of natural living. With over 15 years of clinical experience, he has successfully treated over 5000+ patients with chronic ailments.",
     "He believes that 'The body heals itself' and focuses on educating patients about their lifestyle. His approach combines modern diagnostic methods with ancient wisdom of Nature Cure."
   ],
   image: "https://picsum.photos/400/400?grayscale"

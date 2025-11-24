@@ -23,7 +23,7 @@ const AboutPrinciples: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <img 
-              src="https://images.unsplash.com/photo-1544367563-12123d8965cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+              src="https://plus.unsplash.com/premium_photo-1663126957077-164cb0178e68?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VsbG5lc3MlMjBjZW50ZXIlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA=="
               alt="Naturopathy Treatment Center Lucknow Interior" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

@@ -76,6 +76,20 @@ const Contact: React.FC = () => {
                 ))}
               </div>
             </div>
+
+            {/* Google Map */}
+            <div className="mt-12 rounded-xl overflow-hidden border border-stone-700/50 h-64 w-full">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227821.9871031435!2d80.80242469145657!3d26.848902830209425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba23b119a9bb!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709665555555!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Lucknow Map"
+              ></iframe>
+            </div>
           </div>
 
           {/* Map / Form */}
