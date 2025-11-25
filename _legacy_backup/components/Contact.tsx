@@ -1,8 +1,6 @@
-'use client';
-
 import React from 'react';
 import { MapPin, Phone, Mail, Clock, MessageCircle, Send } from 'lucide-react';
-import { ADDRESS, EMAIL, PHONE, WHATSAPP, SEO_AREAS } from '../lib/constants';
+import { ADDRESS, EMAIL, PHONE, WHATSAPP, SEO_AREAS } from '../constants';
 
 const Contact: React.FC = () => {
   return (
@@ -12,7 +10,7 @@ const Contact: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16">
-          
+
           {/* Contact Info */}
           <div>
             <span className="text-nature-green font-bold tracking-widest uppercase text-xs mb-2 block">Get In Touch</span>
@@ -20,7 +18,7 @@ const Contact: React.FC = () => {
             <p className="text-stone-400 mb-10 text-lg leading-relaxed max-w-md">
               Start your journey towards a disease-free life today. Contact us for consultation regarding chronic diseases and natural detoxification.
             </p>
-            
+
             <div className="space-y-8">
               <div className="flex items-start group">
                 <div className="p-3 bg-white/5 rounded-lg mr-4 group-hover:bg-nature-green transition-colors duration-300">
@@ -31,7 +29,7 @@ const Contact: React.FC = () => {
                   <p className="text-stone-300 leading-relaxed">{ADDRESS}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start group">
                 <div className="p-3 bg-white/5 rounded-lg mr-4 group-hover:bg-nature-green transition-colors duration-300">
                     <Phone className="w-6 h-6 text-white" />
@@ -41,7 +39,7 @@ const Contact: React.FC = () => {
                   <p className="text-stone-300">{PHONE}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start group">
                 <div className="p-3 bg-white/5 rounded-lg mr-4 group-hover:bg-nature-green transition-colors duration-300">
                     <Mail className="w-6 h-6 text-white" />
@@ -69,8 +67,8 @@ const Contact: React.FC = () => {
               <p className="text-xs text-stone-500 font-bold mb-4 tracking-widest uppercase">Serving Patients From Across Lucknow</p>
               <div className="flex flex-wrap gap-2">
                 {SEO_AREAS.slice(0, 10).map((area, idx) => (
-                  <span 
-                    key={idx} 
+                  <span
+                    key={idx}
                     className="text-[10px] font-medium text-stone-400 bg-stone-800/50 px-3 py-1 rounded-full border border-stone-700/50 select-none hover:border-nature-green/50 transition-colors"
                   >
                     {area}
@@ -100,11 +98,11 @@ const Contact: React.FC = () => {
 
             <h3 className="text-2xl font-bold mb-2 font-serif">Book Your Appointment</h3>
             <p className="text-stone-500 mb-8 text-sm">Fill out the form below or chat with us directly.</p>
-            
+
             {/* Primary CTA */}
-            <a 
+            <a
               href={`https://wa.me/${WHATSAPP}?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.`}
-              target="_blank" 
+              target="_blank"
               rel="noreferrer"
               className="w-full bg-[#25D366] text-white font-bold py-4 px-6 rounded-xl hover:bg-[#20bd5a] transition-all transform hover:-translate-y-1 shadow-lg shadow-green-500/20 flex items-center justify-center mb-8 text-base"
             >
@@ -139,7 +137,7 @@ const Contact: React.FC = () => {
                     />
                 </div>
               </div>
-              <button 
+              <button
                 type="submit"
                 className="w-full bg-stone-900 text-white font-bold py-4 rounded-xl hover:bg-stone-800 transition-all shadow-md mt-4 flex justify-center items-center group"
               >

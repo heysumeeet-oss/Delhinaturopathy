@@ -1,7 +1,7 @@
 import React from 'react';
-import { TREATMENTS } from '../lib/constants';
+import { TREATMENTS } from '../constants';
 import { Leaf, Droplets, Sun, Wind, Flower, Activity, HeartPulse, Brain, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 // Helper to render icon by name
 const IconRenderer = ({ name, className }: { name: string, className: string }) => {
@@ -39,9 +39,9 @@ const Services: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {TREATMENTS.map((service) => (
-            <Link 
-              key={service.id} 
-              href={`/treatment/${service.id}`}
+            <Link
+              key={service.id}
+              to={`/treatment/${service.id}`}
               className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 hover:border-nature-green/30 flex flex-col items-start relative overflow-hidden transform hover:-translate-y-2"
             >
               {/* Card Background Decoration */}
@@ -50,11 +50,11 @@ const Services: React.FC = () => {
               <div className="w-14 h-14 bg-nature-light rounded-2xl flex items-center justify-center mb-6 group-hover:bg-nature-green transition-colors duration-300 shadow-inner">
                 <IconRenderer name={service.iconName} className="w-7 h-7 text-nature-green group-hover:text-white transition-colors duration-300" />
               </div>
-              
+
               <h3 className="text-xl font-bold text-stone-900 mb-3 group-hover:text-nature-green transition-colors font-serif">
                 {service.title}
               </h3>
-              
+
               <p className="text-stone-600 text-sm leading-relaxed mb-6 flex-grow">
                 {service.shortDescription}
               </p>

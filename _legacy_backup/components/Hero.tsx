@@ -1,7 +1,7 @@
 import React from 'react';
-import { HERO_TITLE, HERO_SUBTITLE } from '../lib/constants';
+import { HERO_TITLE, HERO_SUBTITLE } from '../constants';
 import { ArrowRight, Leaf, Sun, Droplets, Activity } from 'lucide-react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
@@ -35,14 +35,14 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="/contact"
+              to="/contact"
               className="group bg-white text-nature-green hover:bg-nature-light font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center transform hover:-translate-y-1"
             >
               Schedule Consultation
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/about-naturopathy"
+              to="/about-naturopathy"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-nature-green font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center transform hover:-translate-y-1"
             >
               Learn About Naturopathy

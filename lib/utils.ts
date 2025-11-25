@@ -1,0 +1,65 @@
+import { type ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+// SEO Schema Generators
+export function generateMedicalClinicSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Lucknow Naturopathy & Holistic Healing Centre",
+    "image": "https://picsum.photos/1200/630",
+    "@id": "https://lucknownaturopathy.com",
+    "url": "https://lucknownaturopathy.com",
+    "telephone": "+918874206748",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Wellness Lane, Gomti Nagar",
+      "addressLocality": "Lucknow",
+      "addressRegion": "UP",
+      "postalCode": "226010",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.8467,
+      "longitude": 80.9462
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "19:00"
+    },
+    "sameAs": [
+      "https://www.facebook.com/lucknownaturopathy",
+      "https://www.instagram.com/lucknownaturopathy"
+    ],
+    "priceRange": "$$"
+  };
+}
+
+export function generateFAQSchema(faqs: {question: string, answer: string}[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+}

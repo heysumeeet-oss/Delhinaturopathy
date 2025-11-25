@@ -1,6 +1,6 @@
 import React from 'react';
-import { SEO_AREAS } from '../lib/constants';
-import Link from 'next/link';
+import { APP_NAME, SEO_AREAS } from '../constants';
+import { Link } from 'react-router-dom';
 import { ArrowRight, Instagram, Facebook } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
 
             {/* Brand Section */}
             <div className="md:col-span-4 space-y-6">
-                <Link href="/" className="inline-block text-2xl font-serif font-bold text-white tracking-tight">
+                <Link to="/" className="inline-block text-2xl font-serif font-bold text-white tracking-tight">
                 Lucknow<span className="text-nature-green">Naturopathy</span>
                 </Link>
                 <p className="text-sm text-stone-500 leading-relaxed max-w-sm">
@@ -26,17 +26,17 @@ const Footer: React.FC = () => {
                     </a>
                 </div>
             </div>
-            
+
             {/* Quick Links */}
             <div className="md:col-span-4">
                 <h5 className="text-white font-bold mb-6 text-sm uppercase tracking-widest">Quick Links</h5>
                 <ul className="space-y-3 text-sm">
-                    <li><Link href="/" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Home</Link></li>
-                    <li><Link href="/about-naturopathy" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Naturopathy</Link></li>
-                    <li><Link href="/treatments" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Treatments</Link></li>
-                    <li><Link href="/doctor" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Dr. Verma</Link></li>
-                    <li><Link href="/pricing" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Packages & Pricing</Link></li>
-                    <li><Link href="/contact" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Contact Us</Link></li>
+                    <li><Link to="/" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Home</Link></li>
+                    <li><Link to="/about-naturopathy" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Naturopathy</Link></li>
+                    <li><Link to="/treatments" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Treatments</Link></li>
+                    <li><Link to="/doctor" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Dr. Verma</Link></li>
+                    <li><Link to="/pricing" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Packages & Pricing</Link></li>
+                    <li><Link to="/contact" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Contact Us</Link></li>
                 </ul>
             </div>
 
@@ -58,9 +58,9 @@ const Footer: React.FC = () => {
         <div className="border-t border-stone-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-stone-600">
             <p>&copy; {new Date().getFullYear()} Lucknow Naturopathy. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-                <Link href="/privacy" className="hover:text-stone-400 transition-colors">Privacy Policy</Link>
-                <Link href="/terms" className="hover:text-stone-400 transition-colors">Terms of Service</Link>
-                <Link href="/sitemap.xml" className="hover:text-stone-400 transition-colors">Sitemap</Link>
+                <a href="#" className="hover:text-stone-400 transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-stone-400 transition-colors">Terms of Service</a>
+                <a href="#" className="hover:text-stone-400 transition-colors">Sitemap</a>
             </div>
         </div>
       </div>

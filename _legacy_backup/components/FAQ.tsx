@@ -1,18 +1,10 @@
 import React from 'react';
-import { FAQS } from '../lib/constants';
+import { FAQS } from '../constants';
 import { HelpCircle } from 'lucide-react';
-import { generateFAQSchema } from '@/lib/utils';
 
 const FAQ: React.FC = () => {
   return (
     <section id="faq" className="py-20 bg-white">
-      {/* Inject FAQ Schema for SEO Rich Snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateFAQSchema(FAQS)),
-        }}
-      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-serif font-bold text-stone-900 mb-4">
