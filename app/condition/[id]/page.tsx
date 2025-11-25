@@ -150,7 +150,7 @@ export default function ConditionDetail({ params }: Props) {
 
                 <h3 className="text-xl font-bold mb-4 relative z-10">Suffering from {condition.title}?</h3>
                 <p className="text-nature-light mb-8 text-sm relative z-10">
-                    Don't let it become chronic. Our specialized Naturopathy plan can help reverse this condition naturally.
+                    Don&apos;t let it become chronic. Our specialized Naturopathy plan can help reverse this condition naturally.
                 </p>
 
                 <a

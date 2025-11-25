@@ -72,7 +72,7 @@ const Services: React.FC = () => {
                      <Leaf className="w-6 h-6 text-nature-green" />
                 </div>
                 <p className="text-stone-700 italic text-xl font-serif mb-6 leading-relaxed">
-                    "A Naturopathy doctor will customize your treatment plan according to your disease condition, focusing on Education, Prevention, and Holistic Health."
+                    &quot;A Naturopathy doctor will customize your treatment plan according to your disease condition, focusing on Education, Prevention, and Holistic Health.&quot;
                 </p>
                 <div className="flex flex-wrap justify-center gap-3 text-xs text-stone-500 font-bold uppercase tracking-widest">
                     <span className="bg-white px-3 py-1 rounded-full shadow-sm">Steam Bath</span>

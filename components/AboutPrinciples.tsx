@@ -45,7 +45,7 @@ const AboutPrinciples: React.FC = () => {
             <p className="text-stone-600 mb-8 text-lg leading-relaxed">
               In Naturopathy, we believe that the primary cause of disease is the accumulation of 
               <strong> morbid matter</strong>. Bacteria and viruses are secondary; they only survive 
-              when the body's internal atmosphere allows them to.
+              when the body&apos;s internal atmosphere allows them to.
             </p>
 
             <div className="space-y-6 bg-nature-light/30 p-8 rounded-2xl border border-nature-green/10">
@@ -60,14 +60,14 @@ const AboutPrinciples: React.FC = () => {
                 <CheckCircle2 className="w-6 h-6 text-nature-green mr-4 flex-shrink-0 mt-1" />
                 <div>
                     <h4 className="font-bold text-stone-800 text-lg">The 5 Elements</h4>
-                    <p className="text-stone-600 mt-1">Using "Pancha Maha Bhuthas" (Earth, Water, Fire, Air, Ether) to restore balance.</p>
+                    <p className="text-stone-600 mt-1">Using &quot;Pancha Maha Bhuthas&quot; (Earth, Water, Fire, Air, Ether) to restore balance.</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <CheckCircle2 className="w-6 h-6 text-nature-green mr-4 flex-shrink-0 mt-1" />
                 <div>
                     <h4 className="font-bold text-stone-800 text-lg">Zero Side Effects</h4>
-                    <p className="text-stone-600 mt-1">Providing completely harmless treatments that support the body's natural healing.</p>
+                    <p className="text-stone-600 mt-1">Providing completely harmless treatments that support the body&apos;s natural healing.</p>
                 </div>
               </div>
             </div>
