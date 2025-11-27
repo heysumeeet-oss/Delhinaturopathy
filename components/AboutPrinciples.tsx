@@ -11,13 +11,11 @@ const AboutPrinciples: React.FC = () => {
         {/* Why Choose Naturopathy Section */}
         <div className="text-center mb-20 relative">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-6">
-            Why Choose Naturopathy?
+            Why Choose Naturopathy in Lucknow?
           </h2>
           <div className="w-24 h-1 bg-nature-green mx-auto mb-8 rounded-full"></div>
           <p className="max-w-4xl mx-auto text-xl text-stone-600 leading-relaxed font-light">
-            Naturopathy is an art and science of natural treatment for healthy living. It is a drugless system 
-            of healing that does not imply any kind of medicine. The fundamental difference between Naturopathy 
-            and other systems is our <strong>holistic view point</strong>—treating the whole person rather than just the symptom.
+            Naturopathy is an art and science of natural treatment by doctor for healthy living. It is a drugless system of healing that does not imply any kind of medicine. The fundamental difference between Naturopathy in Lucknow and other systems is our holistic view point, treating the whole person rather than just the symptom.
           </p>
         </div>
 
@@ -41,11 +39,9 @@ const AboutPrinciples: React.FC = () => {
                 <span className="p-2 bg-nature-light rounded-full text-nature-green"><Feather className="w-5 h-5"/></span>
                 <span className="text-sm font-bold tracking-widest text-nature-green uppercase">Holistic Approach</span>
             </div>
-            <h3 className="text-4xl font-serif font-bold text-stone-900 mb-6 leading-tight">Restoring Health <span className="text-nature-green">Naturally</span></h3>
+            <h2 className="text-4xl font-serif font-bold text-stone-900 mb-6 leading-tight">Best Naturopathy Hospital in <span className="text-nature-green">Lucknow</span></h2>
             <p className="text-stone-600 mb-8 text-lg leading-relaxed">
-              In Naturopathy, we believe that the primary cause of disease is the accumulation of 
-              <strong> morbid matter</strong>. Bacteria and viruses are secondary; they only survive 
-              when the body&apos;s internal atmosphere allows them to.
+              When we need to find the best Naturopathy hospital in Lucknow we need such hospital which has Naturopathy experts who are the best Naturopathy doctors and know natural treatment without side effects for disease that we are suffering from.
             </p>
 
             <div className="space-y-6 bg-nature-light/30 p-8 rounded-2xl border border-nature-green/10">

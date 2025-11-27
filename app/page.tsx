@@ -11,7 +11,7 @@ import { MessageCircle } from 'lucide-react';
 import { WHATSAPP } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: "#1 Naturopath in Lucknow, Naturopathy Hospital, Naturopathic Doctor",
+  title: "#1 Naturopathy in Lucknow, Natural Treatment Hospital, Naturopath Doctor | Holistic Healing Lucknow",
 };
 
 export default function Home() {

@@ -7,8 +7,8 @@ export const WHATSAPP = "918874206748";
 export const EMAIL = "biotb.instantreply@gmail.com";
 
 // Keyword-rich introduction
-export const HERO_TITLE = "#1 Naturopathy in Lucknow";
-export const HERO_SUBTITLE = "Restore your health through the power of Nature. A drugless, holistic healing center in the heart of Lucknow.";
+export const HERO_TITLE = "Best Naturopathy in Lucknow, Natural Treatment Doctor Clinic for Holistic Healing";
+export const HERO_SUBTITLE = "Consult Naturopath in Lucknow to restore your health through the power of Nature. A naturopathy based drugless, holistic healing center in Lucknow for natural treatment without side effects by naturopathic doctor.";
 
 export const PRINCIPLES: PrincipleItem[] = [
   {

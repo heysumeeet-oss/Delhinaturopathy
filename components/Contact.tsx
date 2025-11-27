@@ -15,8 +15,8 @@ const Contact: React.FC = () => {
           
           {/* Contact Info */}
           <div>
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4 leading-tight">Contact Best Naturopathy Doctor in Lucknow for Naturopathic Treatment</h1>
-            <h2 className="text-2xl md:text-3xl font-serif text-stone-300 mb-10">Natural Treatment in Lucknow, Naturopath for Disease Cure without Side Effects</h2>
+            <p className="text-lg font-medium mb-4 text-stone-200">Contact Best Naturopathy Doctor in Lucknow for Naturopathic Treatment</p>
+            <p className="text-lg md:text-xl font-serif text-stone-300 mb-10">Natural Treatment in Lucknow, Naturopath for Disease Cure without Side Effects</p>
             
             <div className="space-y-8">
               <div className="flex items-start group">
