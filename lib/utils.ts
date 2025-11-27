@@ -1,5 +1,6 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { SEO_AREAS } from "./constants";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -11,7 +12,7 @@ export function generateMedicalClinicSchema() {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
     "name": "Lucknow Naturopathy & Holistic Healing Centre",
-    "image": "https://picsum.photos/1200/630",
+    "image": "https://lucknownaturopathy.com/opengraph-image", // Updated to dynamic image
     "@id": "https://lucknownaturopathy.com",
     "url": "https://lucknownaturopathy.com",
     "telephone": "+918874206748",
@@ -28,6 +29,7 @@ export function generateMedicalClinicSchema() {
       "latitude": 26.8467,
       "longitude": 80.9462
     },
+    "hasMap": "https://maps.google.com/?q=Lucknow+Naturopathy+Centre", // Added
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
@@ -43,8 +45,13 @@ export function generateMedicalClinicSchema() {
     },
     "sameAs": [
       "https://www.facebook.com/lucknownaturopathy",
-      "https://www.instagram.com/lucknownaturopathy"
+      "https://www.instagram.com/lucknownaturopathy",
+      "https://twitter.com/lucknownature"
     ],
+    "areaServed": SEO_AREAS.map(area => ({ // Added specific areas
+      "@type": "Place",
+      "name": area
+    })),
     "priceRange": "$$"
   };
 }
@@ -60,6 +67,19 @@ export function generateFAQSchema(faqs: {question: string, answer: string}[]) {
         "@type": "Answer",
         "text": faq.answer
       }
+    }))
+  };
+}
+
+export function generateBreadcrumbSchema(items: {name: string, url: string}[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": item.url
     }))
   };
 }

@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import { generateBreadcrumbSchema, generateMedicalClinicSchema } from '@/lib/utils';
 
 interface Props {
   params: { area: string }
@@ -28,7 +29,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Best Naturopathy Centre near ${areaName} | Natural Cure Clinic`,
     description: `Looking for a Naturopath near ${areaName}? We are Lucknow's top-rated holistic healing center located just a short drive away in Gomti Nagar.`,
-    keywords: [`Naturopathy ${areaName}`, `Yoga classes ${areaName}`, `Detox center ${areaName}`]
+    keywords: [`Naturopathy ${areaName}`, `Yoga classes ${areaName}`, `Detox center ${areaName}`],
+    alternates: {
+      canonical: `/location/${params.area}`,
+    },
+    openGraph: {
+      title: `Naturopathy Centre near ${areaName} - Lucknow`,
+      description: `Best Natural Cure Clinic accessible from ${areaName}.`,
+      url: `/location/${params.area}`,
+    }
   };
 }
 
@@ -47,10 +56,34 @@ export default function LocationPage({ params }: Props) {
     notFound();
   }
 
+  // Generate specific LocalBusiness Schema with areaServed focus
+  const locationSchema = {
+    ...generateMedicalClinicSchema(),
+    "areaServed": {
+      "@type": "Place",
+      "name": originalArea
+    }
+  };
+
+  const breadcrumbJson = generateBreadcrumbSchema([
+    { name: 'Home', url: 'https://lucknownaturopathy.com' },
+    { name: 'Locations', url: 'https://lucknownaturopathy.com' }, // Locations aren't listed on a separate page, pointing to home
+    { name: `Naturopath near ${originalArea}`, url: `https://lucknownaturopathy.com/location/${params.area}` }
+  ]);
+
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-20">
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+        />
+         <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJson) }}
+        />
         <div className="bg-white min-h-screen">
 
         {/* Local SEO Header */}

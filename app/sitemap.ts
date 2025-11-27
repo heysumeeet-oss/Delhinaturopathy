@@ -1,4 +1,5 @@
 import { TREATMENTS, CONDITIONS, SEO_AREAS } from '@/lib/constants';
+import { getBlogPosts } from '@/lib/blog';
 import { Metadata, Route } from 'next';
 
 const BASE_URL = 'https://lucknownaturopathy.com';
@@ -12,6 +13,7 @@ export default function sitemap() {
     '/pricing',
     '/contact',
     '/faq',
+    '/blog',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
@@ -40,5 +42,12 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...routes, ...treatmentRoutes, ...conditionRoutes, ...locationRoutes];
+  const blogRoutes = getBlogPosts().map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }));
+
+  return [...routes, ...treatmentRoutes, ...conditionRoutes, ...locationRoutes, ...blogRoutes];
 }
