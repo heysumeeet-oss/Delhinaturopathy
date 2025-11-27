@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { generateBreadcrumbSchema } from '@/lib/utils';
 
 interface Props {
   params: { id: string }
@@ -24,6 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${condition.title} Natural Treatment in Lucknow | Symptoms & Cure`,
     description: `Best Naturopathy treatment for ${condition.title} in Lucknow. ${condition.shortDescription}`,
     keywords: [`${condition.title} cure Lucknow`, `Naturopathy for ${condition.title}`, ...condition.symptoms],
+    alternates: {
+      canonical: `/condition/${params.id}`,
+    },
+    openGraph: {
+        title: `${condition.title} Cure - Lucknow Naturopathy`,
+        description: condition.shortDescription,
+        url: `/condition/${params.id}`,
+    }
   };
 }
 
@@ -57,6 +66,12 @@ export default function ConditionDetail({ params }: Props) {
     }))
   };
 
+  const breadcrumbJson = generateBreadcrumbSchema([
+    { name: 'Home', url: 'https://lucknownaturopathy.com' },
+    { name: 'Conditions', url: 'https://lucknownaturopathy.com/conditions' }, // Assuming a conditions listing exists or purely for structural hierarchy
+    { name: condition.title, url: `https://lucknownaturopathy.com/condition/${condition.id}` }
+  ]);
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -64,6 +79,10 @@ export default function ConditionDetail({ params }: Props) {
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJson) }}
         />
         <div className="bg-stone-50 min-h-screen pb-20">
 

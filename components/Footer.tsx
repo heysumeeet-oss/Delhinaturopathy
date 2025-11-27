@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                     <li><Link href="/" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Home</Link></li>
                     <li><Link href="/about-naturopathy" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Naturopathy</Link></li>
                     <li><Link href="/treatments" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Treatments</Link></li>
-                    <li><Link href="/doctor" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Dr. Verma</Link></li>
+                    <li><Link href="/doctor" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> About Dr. Gupta</Link></li>
                     <li><Link href="/pricing" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Packages & Pricing</Link></li>
                     <li><Link href="/contact" className="hover:text-nature-green transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 opacity-50"/> Contact Us</Link></li>
                 </ul>

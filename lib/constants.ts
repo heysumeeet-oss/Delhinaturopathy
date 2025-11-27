@@ -272,7 +272,7 @@ export const DOCTOR: DoctorProfile = {
     "Dr. Ravi Gupta is a renowned Naturopath in Lucknow dedicated to the cause of natural living. With over 15 years of clinical experience, he has successfully treated over 5000+ patients with chronic ailments.",
     "He believes that 'The body heals itself' and focuses on educating patients about their lifestyle. His approach combines modern diagnostic methods with ancient wisdom of Nature Cure."
   ],
-  image: "https://picsum.photos/400/400?grayscale"
+  image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=400&auto=format&fit=crop"
 };
 
 export const PACKAGES: PackageItem[] = [

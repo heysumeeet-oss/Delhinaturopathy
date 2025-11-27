@@ -5,6 +5,8 @@ import { CheckCircle2, Clock, MessageCircle } from 'lucide-react';
 import { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { generateBreadcrumbSchema } from '@/lib/utils';
+import Image from 'next/image';
 
 interface Props {
   params: { id: string }
@@ -22,9 +24,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${service.title} in Lucknow | Natural Cure & Benefits`,
     description: service.shortDescription + " Best Naturopathy treatment in Lucknow. Book appointment.",
+    alternates: {
+      canonical: `/treatment/${params.id}`,
+    },
     openGraph: {
         title: `${service.title} - Natural Healing Lucknow`,
         description: service.shortDescription,
+        url: `/treatment/${params.id}`,
     }
   };
 }
@@ -53,9 +59,15 @@ export default function ServiceDetail({ params }: Props) {
     "provider": {
       "@type": "MedicalClinic",
       "name": "Lucknow Naturopathy & Holistic Healing Centre",
-      "image": "https://picsum.photos/1200/630"
+      "image": "https://lucknownaturopathy.com/opengraph-image"
     }
   };
+
+  const breadcrumbJson = generateBreadcrumbSchema([
+    { name: 'Home', url: 'https://lucknownaturopathy.com' },
+    { name: 'Treatments', url: 'https://lucknownaturopathy.com/treatments' },
+    { name: service.title, url: `https://lucknownaturopathy.com/treatment/${service.id}` }
+  ]);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -65,18 +77,37 @@ export default function ServiceDetail({ params }: Props) {
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJson) }}
+        />
         <div className="bg-white min-h-screen pb-20">
-        {/* Hero Header */}
-        <div className="bg-stone-900 py-20 text-white relative overflow-hidden">
-            <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        {/* Hero Header - Optimized with Next/Image */}
+        <div className="relative h-[400px] w-full bg-stone-900 text-white overflow-hidden flex items-center justify-center">
+            {/* Fallback pattern if image fails or while loading, but using Next/Image is priority */}
+             <div className="absolute inset-0 bg-stone-900 z-0"></div>
+
+             {/* Abstract/Concrete representation - Ideally this would be dynamic per treatment,
+                 using a placeholder pattern for now to replace the CSS url() */}
+             <div className="absolute inset-0 opacity-20 z-0">
+                <Image
+                  src="https://www.transparenttextures.com/patterns/cubes.png" // External pattern, keeping as is but wrapped
+                  alt="Background pattern"
+                  fill
+                  className="object-cover"
+                  priority
+                  unoptimized // External texture pattern
+                />
+             </div>
+
             <div className="max-w-4xl mx-auto px-4 relative z-10 text-center">
-            <span className="text-nature-green font-bold tracking-widest uppercase text-sm mb-2 block">Natural Therapies</span>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">{service.title}</h1>
-            <p className="text-xl text-stone-300 max-w-2xl mx-auto">{service.shortDescription}</p>
+                <span className="text-nature-green font-bold tracking-widest uppercase text-sm mb-2 block">Natural Therapies</span>
+                <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">{service.title}</h1>
+                <p className="text-xl text-stone-300 max-w-2xl mx-auto">{service.shortDescription}</p>
             </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
             <div className="grid md:grid-cols-3 gap-10">
 
             {/* Main Content */}
