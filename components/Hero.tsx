@@ -1,5 +1,5 @@
 import React from 'react';
-import { HERO_TITLE, HERO_SUBTITLE } from '../lib/constants';
+import { HERO_SUBTITLE } from '../lib/constants';
 import { ArrowRight, Leaf, Sun, Droplets, Activity, Play } from 'lucide-react';
 import Link from 'next/link';
 
@@ -28,8 +28,17 @@ const Hero: React.FC = () => {
              </span>
           </div>
 
-          <h1 className="font-serif font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 drop-shadow-2xl tracking-tight text-white animate-slide-up opacity-0" style={{ animationDelay: '0.4s' }}>
-            {HERO_TITLE}
+          {/* H1 with Split Animation */}
+          <h1 className="font-serif font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 drop-shadow-2xl tracking-tight text-white grid place-items-center">
+            {/* Part 1: Appears then disappears */}
+            <span className="col-start-1 row-start-1 animate-title-part-1 opacity-0">
+              Best Naturopathy in Lucknow
+            </span>
+            <span className="sr-only"> </span>
+            {/* Part 2: Appears after delay and stays */}
+            <span className="col-start-1 row-start-1 animate-title-part-2 opacity-0">
+              Natural Treatment Doctor Clinic for Holistic Healing
+            </span>
           </h1>
 
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-stone-100/90 mb-12 font-light max-w-3xl mx-auto drop-shadow-lg leading-relaxed animate-slide-up opacity-0" style={{ animationDelay: '0.6s' }}>

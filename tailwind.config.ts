@@ -24,9 +24,11 @@ const config: Config = {
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
         'fade-in': 'fadeIn 1s ease-out forwards',
-        'slide-up': 'slideUp 0.5s ease-out',
+        'slide-up': 'slideUp 0.5s ease-out forwards',
         'float': 'float 6s ease-in-out infinite',
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'title-part-1': 'fadeInOut 4s ease-in-out forwards',
+        'title-part-2': 'fadeInSimple 1s ease-out 3.8s forwards',
       },
       keyframes: {
         fadeInUp: {
@@ -36,6 +38,16 @@ const config: Config = {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        fadeInSimple: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInOut: {
+          '0%': { opacity: '0' },
+          '15%': { opacity: '1' },
+          '85%': { opacity: '1' },
+          '100%': { opacity: '0' },
         },
         slideUp: {
           '0%': { transform: 'translateY(100%)', opacity: '0' },

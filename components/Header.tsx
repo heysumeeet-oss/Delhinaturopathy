@@ -44,7 +44,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-        className={`fixed w-full top-0 z-50 transition-all duration-500 border-b ${
+        className={`fixed w-full top-0 z-[100] transition-all duration-500 border-b ${
             scrolled
             ? 'bg-white/90 backdrop-blur-xl shadow-sm border-stone-200 py-3'
             : 'bg-white/60 backdrop-blur-md border-transparent py-5'
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                 Treatments <ChevronDown className="w-4 h-4 ml-1 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
                 <span className={navUnderlineClass}></span>
               </button>
-              <div className="absolute left-0 mt-0 w-72 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] bg-white/95 backdrop-blur-md border border-stone-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left translate-y-4 group-hover:translate-y-0 overflow-hidden">
+              <div className="absolute left-0 mt-0 w-72 z-[101] rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] bg-white/95 backdrop-blur-md border border-stone-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left translate-y-4 group-hover:translate-y-0 overflow-hidden">
                 <div className="p-3 grid gap-1">
                   {TREATMENTS.slice(0, 6).map(item => (
                     <Link key={item.id} href={`/treatment/${item.id}`} className="flex items-center justify-between px-4 py-3 text-sm text-stone-600 hover:bg-nature-light hover:text-nature-green rounded-xl transition-all duration-200 group/item">
@@ -100,7 +100,7 @@ const Header: React.FC = () => {
                 Diseases We Cure <ChevronDown className="w-4 h-4 ml-1 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
                 <span className={navUnderlineClass}></span>
               </button>
-              <div className="absolute left-0 mt-0 w-72 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] bg-white/95 backdrop-blur-md border border-stone-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left translate-y-4 group-hover:translate-y-0 overflow-hidden">
+              <div className="absolute left-0 mt-0 w-72 z-[101] rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] bg-white/95 backdrop-blur-md border border-stone-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left translate-y-4 group-hover:translate-y-0 overflow-hidden">
                 <div className="p-3 grid gap-1">
                   {CONDITIONS.slice(0, 6).map(item => (
                     <Link key={item.id} href={`/condition/${item.id}`} className="flex items-center justify-between px-4 py-3 text-sm text-stone-600 hover:bg-nature-light hover:text-nature-green rounded-xl transition-all duration-200 group/item">
