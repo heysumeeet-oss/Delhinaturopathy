@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             <span className="sr-only"> </span>
             {/* Part 2: Appears after delay and stays */}
             <span className="col-start-1 row-start-1 animate-title-part-2 opacity-0">
-              Natural Treatment Doctor Clinic for Holistic Healing
+              Natural Treatment Hospital
             </span>
           </h1>
 
