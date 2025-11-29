@@ -7,6 +7,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Frequently Asked Questions | Naturopathy Lucknow",
   description: "Answers to common questions about Naturopathy, safety, treatment duration, and costs.",
+  alternates: {
+    canonical: '/faq',
+  },
 };
 
 export default function FAQPage() {

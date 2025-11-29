@@ -8,6 +8,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: "Naturopathy Packages Price List | Detox & Weight Loss Lucknow",
   description: "Affordable Naturopathy treatment packages in Lucknow. 7 Days Detox, Weight Loss, and Pain Relief programs starting at ₹5,500.",
+  alternates: {
+    canonical: '/pricing',
+  },
 };
 
 export default function PriceList() {

@@ -2,22 +2,25 @@ import React from 'react';
 import { HERO_SUBTITLE } from '../lib/constants';
 import { ArrowRight, Leaf, Sun, Droplets, Activity, Play } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero: React.FC = () => {
   return (
     <section className="relative h-[100vh] flex content-center items-center justify-center text-white overflow-hidden">
       {/* Background Image with Improved Overlay */}
-      <div
-        className="absolute top-0 w-full h-full bg-center bg-cover z-0"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80')"
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-nature-green/40 to-black/60 mix-blend-multiply"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-nature-green/90 via-transparent to-transparent opacity-80"></div>
+      <div className="absolute top-0 w-full h-full z-0">
+        <Image
+          src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80"
+          alt="Natural Healing Center Environment"
+          fill
+          priority
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-nature-green/40 to-black/60 mix-blend-multiply z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-nature-green/90 via-transparent to-transparent opacity-80 z-10"></div>
       </div>
 
-      <div className="container relative mx-auto px-4 z-10 flex flex-col items-center justify-center text-center">
+      <div className="container relative mx-auto px-4 z-20 flex flex-col items-center justify-center text-center">
         <div className="w-full lg:w-9/12 xl:w-8/12 animate-fade-in-up">
 
           {/* Decorative Element */}

@@ -7,6 +7,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "About Naturopathy | Philosophy & Principles",
   description: "Learn about the 5 elements of nature cure and how we treat the root cause of diseases without medicines.",
+  alternates: {
+    canonical: '/about-naturopathy',
+  },
 };
 
 export default function AboutPage() {

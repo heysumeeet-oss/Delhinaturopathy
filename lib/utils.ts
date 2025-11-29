@@ -29,30 +29,47 @@ export function generateMedicalClinicSchema() {
       "latitude": 26.8467,
       "longitude": 80.9462
     },
-    "hasMap": "https://maps.google.com/?q=Lucknow+Naturopathy+Centre", // Added
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "opens": "08:00",
-      "closes": "19:00"
-    },
+    "hasMap": "https://maps.google.com/?q=Lucknow+Naturopathy+Centre",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "13:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "16:00",
+        "closes": "19:00"
+      }
+    ],
+    "paymentAccepted": "Cash, UPI, Google Pay, PhonePe, Bank Transfer",
+    "currenciesAccepted": "INR",
     "sameAs": [
       "https://www.facebook.com/lucknownaturopathy",
       "https://www.instagram.com/lucknownaturopathy",
       "https://twitter.com/lucknownature"
     ],
-    "areaServed": SEO_AREAS.map(area => ({ // Added specific areas
+    "areaServed": SEO_AREAS.map(area => ({
       "@type": "Place",
       "name": area
     })),
-    "priceRange": "$$"
+    "priceRange": "₹"
   };
 }
 

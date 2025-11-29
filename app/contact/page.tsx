@@ -6,7 +6,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Contact Lucknow Naturopathy Centre | Book Appointment",
-  description: "Visit our clinic in Gomti Nagar, Lucknow. Call +91 88742 06748 for appointments. Open Mon-Sat 8AM-7PM.",
+  description: "Visit our clinic in Gomti Nagar, Lucknow. Call +91 88742 06748. Open Mon-Sat 08:00-13:00 & 16:00-19:00.",
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {

@@ -9,6 +9,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: `${DOCTOR.name} - Best Naturopath in Lucknow | Profile`,
   description: `Meet ${DOCTOR.name}, Senior Naturopath in Lucknow with ${DOCTOR.experience} experience. Expert in Chronic Pain, Diabetes Reversal & Detoxification.`,
+  alternates: {
+    canonical: '/doctor',
+  },
 };
 
 export default function AboutDoctor() {

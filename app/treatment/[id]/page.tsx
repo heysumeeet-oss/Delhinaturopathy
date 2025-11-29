@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${service.title} in Lucknow | Natural Cure & Benefits`,
     description: service.shortDescription + " Best Naturopathy treatment in Lucknow. Book appointment.",
+    keywords: [`${service.title} Lucknow`, `Naturopathy for ${service.title}`, "Natural Cure", "Holistic Healing", ...service.benefits],
     alternates: {
       canonical: `/treatment/${params.id}`,
     },

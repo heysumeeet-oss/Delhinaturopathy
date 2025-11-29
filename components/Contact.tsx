@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
                 { icon: MapPin, title: "Address", content: ADDRESS },
                 { icon: Phone, title: "Phone & WhatsApp", content: PHONE },
                 { icon: Mail, title: "Email", content: EMAIL },
-                { icon: Clock, title: "Clinic Hours", content: <>Mon - Sat: 8:00 AM - 7:00 PM<br/>Sunday: Closed</> }
+                { icon: Clock, title: "Clinic Hours", content: <>Mon - Sat: 8:00 AM - 1:00 PM<br/>& 4:00 PM - 7:00 PM<br/>Sunday: Closed</> }
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start group p-4 rounded-2xl hover:bg-white/5 transition-colors duration-300 border border-transparent hover:border-white/5">
                   <div className="p-3 bg-nature-green/20 rounded-xl mr-5 group-hover:bg-nature-green transition-colors duration-300 flex-shrink-0">
