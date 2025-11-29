@@ -70,25 +70,7 @@ export function generateMedicalClinicSchema() {
       "@type": "Place",
       "name": area
     })),
-    "priceRange": "₹",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": (REVIEWS.reduce((acc, r) => acc + r.rating, 0) / REVIEWS.length).toFixed(1),
-      "reviewCount": REVIEWS.length
-    },
-    "review": REVIEWS.map(review => ({
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": review.author
-      },
-      "datePublished": review.date,
-      "reviewBody": review.text,
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": review.rating
-      }
-    }))
+    "priceRange": "₹"
   };
 }
 
