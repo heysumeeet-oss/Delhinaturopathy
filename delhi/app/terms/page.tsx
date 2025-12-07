@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Delhi Naturopath Centre",
+  title: "Terms of Service | Delhi Wellness Haven Centre",
   description: "Terms and conditions for using our website and services.",
 };
 
@@ -19,7 +19,7 @@ export default function TermsOfService() {
             <div className="prose prose-stone max-w-none">
                 <p><strong>Last Updated: {new Date().toLocaleDateString()}</strong></p>
 
-                <p>Welcome to Delhi Naturopath & Holistic Healing Centre. By accessing our website or booking our services, you agree to comply with and be bound by the following terms and conditions.</p>
+                <p>Welcome to Delhi Wellness Haven & Holistic Healing Centre. By accessing our website or booking our services, you agree to comply with and be bound by the following terms and conditions.</p>
 
                 <h3>1. Medical Disclaimer</h3>
                 <p>The content on this website is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or qualified health provider with any questions you may have regarding a medical condition.</p>
@@ -38,7 +38,7 @@ export default function TermsOfService() {
                 <p>We maintain a peaceful and respectful environment. Any inappropriate behavior towards staff or other patients will result in immediate termination of services.</p>
 
                 <h3>5. Intellectual Property</h3>
-                <p>All content, images, and text on this website are the property of Delhi Naturopath Centre and may not be reproduced without permission.</p>
+                <p>All content, images, and text on this website are the property of Delhi Wellness Haven Centre and may not be reproduced without permission.</p>
 
                 <h3>6. Changes to Terms</h3>
                 <p>We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting to the website.</p>

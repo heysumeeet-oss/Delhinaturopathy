@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Delhi Naturopath & Holistic Healing Centre',
-    short_name: 'Delhi Naturopath',
+    name: 'Delhi Wellness Haven & Holistic Healing Centre',
+    short_name: 'Delhi Wellness Haven',
     description: 'Top-rated Naturopathy Centre in Delhi for natural healing and detox.',
     start_url: '/',
     display: 'standalone',

@@ -12,7 +12,7 @@ export function generateMedicalClinicSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
-    "name": "Delhi Naturopath & Holistic Healing Centre",
+    "name": "Delhi Wellness Haven & Holistic Healing Centre",
     "image": "https://delhinaturopath.in/opengraph-image", // Updated to dynamic image
     "@id": "https://delhinaturopath.in",
     "url": "https://delhinaturopath.in",

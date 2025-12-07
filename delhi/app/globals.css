@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import new fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -26,5 +29,13 @@
   }
   .glass-dark {
     @apply bg-black/30 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+
+  /* Additional utilities for the new theme */
+  .text-gold {
+    @apply text-accent-teal;
+  }
+  .bg-sage {
+    @apply bg-primary-blue;
   }
 }

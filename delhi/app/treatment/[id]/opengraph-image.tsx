@@ -39,7 +39,7 @@ export default async function Image({ params }: { params: { id: string } }) {
             marginBottom: 30,
             fontFamily: 'sans-serif'
         }}>
-            🌿 Delhi Naturopath
+            🌿 Delhi Wellness Haven
         </div>
         <div style={{ fontSize: 72, fontWeight: 'bold', lineHeight: 1.1, marginBottom: 20 }}>
           {title}

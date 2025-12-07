@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
       The content should be formatted as a JSON object with the following fields:
       - title: A catchy, keyword-rich title.
       - excerpt: A short summary (150 chars).
-      - content: The full article in semantic HTML format (use <h2>, <h3>, <p>, <ul>). Do not include the title in the HTML. Include advice relevant to "Delhi Naturopath".
+      - content: The full article in semantic HTML format (use <h2>, <h3>, <p>, <ul>). Do not include the title in the HTML. Include advice relevant to "Delhi Wellness Haven".
       - tags: An array of 5 relevant tags.
       - keywords: An array of 5 SEO keywords.
 
@@ -69,7 +69,7 @@ export async function GET(request: NextRequest) {
       excerpt: blogData.excerpt,
       content: blogData.content,
       date: new Date().toISOString(),
-      author: "Dr. Ananya Sharma", // Default author
+      author: "Dr. Rajesh Verma", // Default author
       tags: blogData.tags,
       keywords: blogData.keywords
     };

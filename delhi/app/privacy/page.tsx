@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Delhi Naturopath Centre",
+  title: "Privacy Policy | Delhi Wellness Haven Centre",
   description: "Our commitment to protecting your personal and medical information.",
 };
 
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             <div className="prose prose-stone max-w-none">
                 <p><strong>Last Updated: {new Date().toLocaleDateString()}</strong></p>
 
-                <p>At Delhi Naturopath & Holistic Healing Centre, we are committed to protecting your privacy and ensuring the security of your personal and health information. This Privacy Policy outlines how we collect, use, and safeguard your data.</p>
+                <p>At Delhi Wellness Haven & Holistic Healing Centre, we are committed to protecting your privacy and ensuring the security of your personal and health information. This Privacy Policy outlines how we collect, use, and safeguard your data.</p>
 
                 <h3>1. Information We Collect</h3>
                 <p>We may collect the following types of information:</p>
@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
                 <h3>5. Contact Us</h3>
                 <p>If you have any questions about this Privacy Policy, please contact us at:</p>
                 <p>
-                    <strong>Delhi Naturopath Centre</strong><br/>
+                    <strong>Delhi Wellness Haven Centre</strong><br/>
                     Saket, New Delhi<br/>
                     Email: contact@delhinaturopath.in
                 </p>
