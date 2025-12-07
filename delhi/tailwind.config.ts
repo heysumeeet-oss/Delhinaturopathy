@@ -9,19 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'primary-blue': '#4A7C59', // Changed to Sage Green
-        'primary-dark': '#2C4C3B', // Darker Green
-        'primary-light': '#E8F5E9', // Very Light Green
-        'accent-teal': '#D4AF37', // Changed to Soft Gold/Bronze
-        'accent-dark': '#B5952F', // Darker Gold
-        'light-gray': '#FAF9F6', // Off-white/Cream
-        'dark-gray': '#2D2D2D',
-        'nature-green': '#4A7C59', // Alias for semantic usage
-        'earth-brown': '#8C6239', // Added Earthy tone
+        'primary-blue': '#2E5A88',
+        'primary-dark': '#1E3A56',
+        'primary-light': '#EAF0F6',
+        'accent-teal': '#4ECDC4',
+        'accent-dark': '#3AA89D',
+        'light-gray': '#F7F7F7',
+        'dark-gray': '#333333',
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'], // Changed from Montserrat
-        serif: ['Playfair Display', 'serif'], // Changed from Lora
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Lora', 'serif'],
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
@@ -62,7 +60,7 @@ const config: Config = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'hero-overlay': 'linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(44,76,59,0.8))', // Updated overlay color
+        'hero-overlay': 'linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(58,99,81,0.8))',
       }
     },
   },

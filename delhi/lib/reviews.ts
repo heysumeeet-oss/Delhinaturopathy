@@ -12,7 +12,7 @@ export const REVIEWS: Review[] = [
     author: "Amit Kumar",
     rating: 5,
     date: "2023-10-12",
-    text: "I was suffering from chronic back pain for 3 years. Doctors suggested surgery, but I wanted to try something natural. Dr. Rajesh Verma's treatment in Saket changed my life. The potli massage and spinal bath therapy worked wonders. Highly recommend!",
+    text: "I was suffering from chronic back pain for 3 years. Doctors suggested surgery, but I wanted to try something natural. Dr. Ananya Sharma's treatment in Saket changed my life. The potli massage and spinal bath therapy worked wonders. Highly recommend!",
     treatment: "Chronic Back Pain",
     location: "Saket"
   },
@@ -60,7 +60,7 @@ export const REVIEWS: Review[] = [
     author: "Rahul Verma",
     rating: 5,
     date: "2023-11-22",
-    text: "Dr. Rajesh Verma gives a lot of time to understand the patient's history. He explained why I had migraines and treated the root cause with diet and acupressure. No painkillers needed anymore!",
+    text: "Dr. Ananya Sharma gives a lot of time to understand the patient's history. He explained why I had migraines and treated the root cause with diet and acupressure. No painkillers needed anymore!",
     treatment: "Migraine",
     location: "Karol Bagh"
   },
@@ -76,7 +76,7 @@ export const REVIEWS: Review[] = [
     author: "Suresh Kumar",
     rating: 5,
     date: "2024-02-05",
-    text: "Suffering from arthritis knee pain? Go here. The steam bath and oil massage gave me relief in just 10 days. I can walk without pain now. Thank you team Delhi Wellness Haven.",
+    text: "Suffering from arthritis knee pain? Go here. The steam bath and oil massage gave me relief in just 10 days. I can walk without pain now. Thank you team Delhi Naturopath.",
     treatment: "Arthritis",
     location: "Rohini"
   },

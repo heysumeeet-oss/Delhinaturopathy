@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
             {/* Brand Section */}
             <div className="md:col-span-4 space-y-6">
                 <Link href="/" className="inline-block text-3xl font-serif font-bold text-white tracking-tight group">
-                Wellness<span className="text-accent-teal group-hover:text-white transition-colors">Haven</span>
+                Delhi<span className="text-accent-teal group-hover:text-white transition-colors">Naturopath</span>
                 </Link>
                 <p className="text-sm text-primary-light/60 leading-relaxed max-w-sm">
-                    Nurturing health naturally since 2012. We provide a sanctuary for healing in the bustling heart of New Delhi.
+                    Dedicated to holistic well-being since 2012. Your premier destination for natural healing and wellness in the heart of Delhi.
                 </p>
                 <div className="flex space-x-4 pt-2">
                     <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-primary-blue/10 border border-primary-blue/30 flex items-center justify-center hover:bg-accent-teal hover:border-accent-teal hover:text-white transition-all duration-300 group">
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-primary-blue/20 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-primary-light/60">
             <p className="flex items-center gap-1">
-                &copy; {new Date().getFullYear()} Delhi Wellness Haven. Crafted with <Heart className="w-3 h-3 text-accent-teal fill-current" /> by Nature's Design.
+                &copy; {new Date().getFullYear()} Delhi Naturopath. Made with <Heart className="w-3 h-3 text-accent-teal fill-current" /> for Nature.
             </p>
             <div className="flex space-x-8 mt-4 md:mt-0">
                 <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

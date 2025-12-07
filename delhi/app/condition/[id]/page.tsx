@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/condition/${params.id}`,
     },
     openGraph: {
-        title: `${condition.title} Cure - Delhi Wellness Haven`,
+        title: `${condition.title} Cure - Delhi Naturopath`,
         description: condition.shortDescription,
         url: `/condition/${params.id}`,
     }

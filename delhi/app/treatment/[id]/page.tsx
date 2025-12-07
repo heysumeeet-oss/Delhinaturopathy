@@ -59,7 +59,7 @@ export default function ServiceDetail({ params }: Props) {
     "bodyLocation": "Whole body", // Generalized, could be specific if data allowed
     "provider": {
       "@type": "MedicalClinic",
-      "name": "Delhi Wellness Haven & Holistic Healing Centre",
+      "name": "Delhi Naturopath & Holistic Healing Centre",
       "image": "https://delhinaturopath.in/opengraph-image"
     }
   };

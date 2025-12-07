@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
 
-export const alt = 'Delhi Wellness Haven & Holistic Healing Centre';
+export const alt = 'Delhi Naturopath & Holistic Healing Centre';
 export const size = {
   width: 1200,
   height: 630,
