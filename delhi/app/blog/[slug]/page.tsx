@@ -70,7 +70,7 @@ export default function BlogPostPage({ params }: Props) {
     },
     "publisher": {
         "@type": "Organization",
-        "name": "Delhi Naturopath",
+        "name": "Delhi Wellness Haven",
         "logo": {
             "@type": "ImageObject",
             "url": "https://delhinaturopath.in/favicon.ico"

@@ -1,6 +1,6 @@
-# Delhi Naturopath - Next.js Website
+# Delhi Wellness Haven - Next.js Website
 
-This is a Next.js project for the Delhi Naturopath clinic website.
+This is a Next.js project for the Delhi Wellness Haven clinic website.
 
 ## Getting Started
 

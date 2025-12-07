@@ -67,11 +67,11 @@ const Header: React.FC = () => {
                  <div className="relative">
                     <Leaf className="w-6 h-6 text-primary-blue absolute -left-7 top-1 opacity-0 group-hover:opacity-100 transition-all duration-500 -rotate-12" />
                     <span className="text-2xl md:text-3xl font-serif font-bold text-primary-blue tracking-tight transition-transform duration-300 group-hover:translate-x-1">
-                    Delhi
+                    Wellness
                     </span>
                  </div>
                 <span className="text-accent-teal text-2xl md:text-3xl font-serif font-bold tracking-tight transition-colors duration-300 group-hover:text-primary-dark">
-                  Naturopath
+                  Haven
                 </span>
               </Link>
             </div>

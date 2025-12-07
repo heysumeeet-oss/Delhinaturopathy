@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `Best Naturopathy Centre near ${areaName} | Natural Cure Clinic`,
-    description: `Looking for a Naturopath near ${areaName}? We are Delhi's top-rated holistic healing center located just a short drive away in Gomti Nagar.`,
+    title: `Premier Wellness Centre serving ${areaName} | Natural Cure Clinic`,
+    description: `Searching for a Naturopath near ${areaName}? Delhi Wellness Haven offers top-rated holistic healing and is conveniently located in Green Park Main.`,
     keywords: [`Naturopathy ${areaName}`, `Yoga classes ${areaName}`, `Detox center ${areaName}`],
     alternates: {
       canonical: `/location/${params.area}`,
@@ -93,10 +93,10 @@ export default function LocationPage({ params }: Props) {
                 <MapPin className="w-6 h-6 text-nature-green" />
             </div>
             <h1 className="text-3xl md:text-5xl font-serif font-bold text-stone-900 mb-6">
-                Naturopathy Services for Residents of <span className="text-nature-green">{originalArea}</span>
+                Holistic Health Services for <span className="text-primary-blue">{originalArea}</span> Residents
             </h1>
             <p className="text-xl text-stone-600 leading-relaxed">
-                Experience world-class natural healing without traveling far. Our Gomti Nagar center is easily accessible from {originalArea}.
+                Experience premier natural healing without the long commute. Our Green Park Main center is easily accessible from {originalArea}.
             </p>
             </div>
         </div>
@@ -105,35 +105,35 @@ export default function LocationPage({ params }: Props) {
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-stone-100 flex flex-col md:flex-row">
                 <div className="p-8 md:p-12 md:w-2/3">
-                    <h2 className="text-2xl font-bold text-stone-900 mb-4">Why visit us from {originalArea}?</h2>
+                    <h2 className="text-2xl font-bold text-stone-900 mb-4">Why Choose Us from {originalArea}?</h2>
                     <p className="text-stone-600 mb-6">
-                        We understand you have choices for healthcare in {originalArea}. However, true holistic healing requires a specialized environment.
-                        Our center offers:
+                        While there may be options in {originalArea}, our center provides a unique, immersive healing environment.
+                        We offer:
                     </p>
                     <ul className="space-y-4 mb-8">
                         <li className="flex items-start">
-                            <CheckCircle2 className="w-5 h-5 text-nature-green mr-3 mt-1" />
-                            <span className="text-stone-700"><strong>Authentic Mud & Hydrotherapy</strong> facilities not available in standard clinics.</span>
+                            <CheckCircle2 className="w-5 h-5 text-primary-blue mr-3 mt-1" />
+                            <span className="text-stone-700"><strong>Specialized Hydrotherapy</strong> units designed for therapeutic efficacy.</span>
                         </li>
                         <li className="flex items-start">
-                            <CheckCircle2 className="w-5 h-5 text-nature-green mr-3 mt-1" />
-                            <span className="text-stone-700"><strong>Experienced Doctors</strong> with 15+ years of success in chronic disease reversal.</span>
+                            <CheckCircle2 className="w-5 h-5 text-primary-blue mr-3 mt-1" />
+                            <span className="text-stone-700"><strong>Expert Care</strong> under Dr. Rajesh Verma with nearly 20 years of experience.</span>
                         </li>
                         <li className="flex items-start">
-                            <CheckCircle2 className="w-5 h-5 text-nature-green mr-3 mt-1" />
-                            <span className="text-stone-700"><strong>Peaceful Environment</strong> designed for stress relief and mental detoxification.</span>
+                            <CheckCircle2 className="w-5 h-5 text-primary-blue mr-3 mt-1" />
+                            <span className="text-stone-700"><strong>Tranquil Setting</strong> that promotes mental clarity and relaxation.</span>
                         </li>
                     </ul>
 
-                    <Link href="/contact" className="inline-flex items-center text-nature-green font-bold hover:underline">
+                    <Link href="/contact" className="inline-flex items-center text-primary-blue font-bold hover:underline">
                         Get Directions to Our Center <MapPin className="w-4 h-4 ml-2" />
                     </Link>
                 </div>
 
-                <div className="bg-nature-green p-8 md:w-1/3 text-white flex flex-col justify-center items-center text-center">
-                    <h3 className="text-xl font-bold mb-4">Book Your Visit</h3>
-                    <p className="text-nature-light text-sm mb-6">
-                        We offer special consultation slots for patients traveling from {originalArea}.
+                <div className="bg-primary-blue p-8 md:w-1/3 text-white flex flex-col justify-center items-center text-center">
+                    <h3 className="text-xl font-bold mb-4">Schedule Your Visit</h3>
+                    <p className="text-primary-light text-sm mb-6">
+                        Prioritized slots available for patients coming from {originalArea}.
                     </p>
                     <a
                     href={`https://wa.me/${WHATSAPP}?text=Hi,%20I%20am%20from%20${originalArea}%20and%20want%20to%20book%20an%20appointment.`}
