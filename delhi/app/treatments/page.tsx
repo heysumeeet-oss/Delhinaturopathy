@@ -5,7 +5,7 @@ import Services from '@/components/Services';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Natural Treatments & Therapies | Delhi Wellness Haven",
+  title: "Natural Treatments & Therapies | Delhi Naturopath",
   description: "Explore our range of drugless treatments including Mud Therapy, Hydrotherapy, Shirodhara, and Acupuncture.",
 };
 

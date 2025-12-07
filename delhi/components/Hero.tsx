@@ -21,34 +21,34 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container relative mx-auto px-4 z-20 flex flex-col items-center justify-center text-center">
-        <div className="w-full lg:w-10/12 xl:w-9/12 animate-fade-in-up">
+        <div className="w-full lg:w-9/12 xl:w-8/12 animate-fade-in-up">
 
-          {/* Decorative Element - Changed Style */}
-          <div className="mb-6 flex justify-center animate-fade-in opacity-0" style={{ animationDelay: '0.2s' }}>
-             <div className="flex items-center gap-3">
-               <div className="h-px w-12 bg-accent-teal/60"></div>
-               <span className="text-accent-teal font-sans uppercase tracking-[0.3em] text-sm font-semibold shadow-black/50 drop-shadow-md">
-                  Wellness Sanctuary
-               </span>
-               <div className="h-px w-12 bg-accent-teal/60"></div>
-             </div>
+          {/* Decorative Element */}
+          <div className="mb-8 flex justify-center animate-fade-in opacity-0" style={{ animationDelay: '0.2s' }}>
+             <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold tracking-[0.2em] uppercase shadow-lg">
+                <Leaf className="w-3 h-3 text-primary-light animate-pulse" />
+                Holistic Healing Center
+             </span>
           </div>
 
-          {/* H1 with Different Structure */}
-          <h1 className="font-serif font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 drop-shadow-2xl tracking-tight text-white">
-             <span className="block animate-slide-up opacity-0" style={{ animationDelay: '0.4s' }}>
-               Revitalize Your Life
-             </span>
-             <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light italic mt-2 animate-slide-up opacity-0" style={{ animationDelay: '0.6s' }}>
-               at Delhi's Premier Naturopathy Haven
-             </span>
+          {/* H1 with Split Animation */}
+          <h1 className="font-serif font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 drop-shadow-2xl tracking-tight text-white grid place-items-center">
+            {/* Part 1: Appears then disappears */}
+            <span className="col-start-1 row-start-1 animate-title-part-1 opacity-0">
+              Leading Naturopathy in Delhi
+            </span>
+            <span className="sr-only"> </span>
+            {/* Part 2: Appears after delay and stays */}
+            <span className="col-start-1 row-start-1 animate-title-part-2 opacity-0">
+              Natural Healing Clinic
+            </span>
           </h1>
 
-          <p className="mt-6 text-lg sm:text-xl md:text-2xl text-stone-100/90 mb-10 font-light max-w-3xl mx-auto drop-shadow-lg leading-relaxed animate-slide-up opacity-0" style={{ animationDelay: '0.8s' }}>
+          <p className="mt-4 text-lg sm:text-xl md:text-2xl text-stone-100/90 mb-12 font-light max-w-3xl mx-auto drop-shadow-lg leading-relaxed animate-slide-up opacity-0" style={{ animationDelay: '0.6s' }}>
             {HERO_SUBTITLE}
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-6 animate-slide-up opacity-0" style={{ animationDelay: '1.0s' }}>
+          <div className="flex flex-col sm:flex-row justify-center gap-6 animate-slide-up opacity-0" style={{ animationDelay: '0.8s' }}>
             <Link
               href="/contact"
               className="group relative bg-white text-primary-blue font-bold text-sm tracking-wide px-10 py-5 rounded-full shadow-2xl hover:shadow-[0_20px_50px_rgba(255,255,255,0.2)] transition-all duration-300 flex items-center justify-center overflow-hidden"

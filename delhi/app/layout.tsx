@@ -19,12 +19,12 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Delhi Wellness Haven",
-    default: "Premier Naturopathy & Holistic Wellness Centre in Delhi",
+    template: "%s | Delhi Naturopath & Holistic Healing Centre",
+    default: "Best Naturopathy Clinic in Delhi | Holistic Healing Centre",
   },
-  description: "Delhi's leading sanctuary for natural healing. Specializing in mud therapy, hydrotherapy, and holistic detox. Reclaim your health naturally at Wellness Haven.",
-  keywords: ["Naturopathy Delhi", "Wellness Haven Delhi", "Holistic Health Centre", "Yoga Therapy Delhi", "Detox Clinic", "Mud Therapy Delhi", "Natural Cure", "Dr. Rajesh Verma", "Best Naturopath Delhi"],
-  metadataBase: new URL('https://delhiwellnesshaven.com'),
+  description: "Top-rated Naturopathy Centre in Delhi. Specializing in drugless healing, mud therapy, shirodhara, yoga, and detox. Cure chronic diseases naturally.",
+  keywords: ["Naturopathy in Delhi", "Naturopathy Centre Delhi", "Natural Healing Delhi", "Yoga Therapy Delhi", "Detox Center Delhi", "Mud Therapy", "Shirodhara Delhi", "Drugless Treatment", "Best Naturopath Delhi"],
+  metadataBase: new URL('https://delhinaturopath.in'),
   alternates: {
     canonical: '/',
   },
@@ -32,20 +32,20 @@ export const metadata: Metadata = {
     google: "verification_token",
     yandex: "yandex_verification",
     other: {
-      "me": ["info@delhiwellnesshaven.com", "https://delhiwellnesshaven.com"],
+      "me": ["contact@delhinaturopath.in", "https://delhinaturopath.in"],
     },
   },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://delhiwellnesshaven.com/',
-    siteName: 'Delhi Wellness Haven',
+    url: 'https://delhinaturopath.in/',
+    siteName: 'Delhi Naturopath & Holistic Healing Centre',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'Delhi Wellness Haven',
+        alt: 'Delhi Naturopath & Holistic Healing Centre',
       },
     ],
   },
