@@ -1,0 +1,42 @@
+{
+  "id": "detox",
+  "title": "Detoxification Programs",
+  "metaTitle": "Full Body Detox Delhi | Natural Cleansing Program",
+  "metaDescription": "Reset your body with our Detoxification Program in Delhi. Includes Juice Fasting, Colon Cleanse, Mud Therapy, and Sauna. Remove toxins and boost energy naturally.",
+  "keywords": [
+    "Detox Centre Delhi",
+    "Body Detoxification",
+    "Juice Cleanse Delhi",
+    "Colon Cleansing",
+    "Liver Detox Natural",
+    "Panchakarma Detox Delhi"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Spring cleaning isn't just for your home; your body needs it too.</strong></p><p class=\"mb-4\">In our modern world, we are bombarded with toxins—polluted air, pesticides in food, heavy metals in water, and stress hormones in our blood. Over time, these toxins accumulate in our fat cells and organs, leading to chronic fatigue, brain fog, skin breakouts, and lowered immunity.</p><p class=\"mb-4\">Our <strong>Detoxification Program</strong> is a systematic medical cleanse. It is not a starving fad diet. It is a supported process of mobilizing toxins from tissues and eliminating them through the 4 main channels: Skin, Lungs, Kidneys, and Colon.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Signs You Need a Detox",
+      "content": "<ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li>Unexplained fatigue or lethargy.</li><li>Constipation or bloating.</li><li>Skin rashes, acne, or dullness.</li><li>White coating on the tongue.</li><li>Difficulty losing weight.</li><li>Mental fog or irritability.</li></ul>"
+    },
+    {
+      "title": "The 3 Stages of our Detox",
+      "content": "<div class=\"space-y-4\"><div class=\"flex items-start\"><span class=\"font-bold text-nature-green mr-4 min-w-[120px]\">1. Mobilization</span><p>We use deep tissue massage and steam baths to loosen toxins stored in fat and muscle tissue.</p></div><div class=\"flex items-start\"><span class=\"font-bold text-nature-green mr-4 min-w-[120px]\">2. Neutralization</span><p>Antioxidant-rich juices (like Ash Gourd, Green Juice) are given to bind with free radicals and toxins.</p></div><div class=\"flex items-start\"><span class=\"font-bold text-nature-green mr-4 min-w-[120px]\">3. Elimination</span><p>We use Enemas, Colon Hydrotherapy, and Kidney packs to flush the toxins out of the body permanently.</p></div></div>"
+    },
+    {
+      "title": "Key Therapies Included",
+      "content": "<ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Juice Feasting:</strong> Replacing solid meals with nutrient-dense, enzyme-rich vegetable juices to rest the digestion.</li><li><strong>Mud Packs:</strong> To draw out toxins through the skin pores.</li><li><strong>Sauna / Steam:</strong> To sweat out heavy metals.</li><li><strong>Wet Sheet Pack:</strong> A powerful hydrotherapy treatment that induces a fever-like state to burn up toxins.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will I feel weak during detox?",
+      "answer": "You might feel a 'healing crisis' (headache, fatigue) for the first 24-48 hours as caffeine/sugar withdrawal hits. After that, most patients report a surge in energy and clarity."
+    },
+    {
+      "question": "How often should I detox?",
+      "answer": "We recommend a short 3-day detox at every change of season (Ritu Sandhi), and a deeper 7-10 day cleanse once a year."
+    }
+  ],
+  "relatedConditions": ["obesity", "digestive-disorders", "hypertension", "arthritis"],
+  "relatedTreatments": ["hydrotherapy", "mud-therapy", "massage-therapy"]
+}

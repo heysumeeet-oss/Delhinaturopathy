@@ -1,0 +1,38 @@
+{
+  "id": "digestive-disorders",
+  "title": "Digestive Disorder Treatment",
+  "metaTitle": "Digestive Health Treatment Delhi | Cure IBS, Acidity, Constipation",
+  "metaDescription": "Heal your gut naturally in Delhi. Treatment for IBS, Constipation, Acidity, and Bloating using Naturopathy. Gut health is the key to total wellness.",
+  "keywords": [
+    "Digestive Treatment Delhi",
+    "IBS Natural Cure",
+    "Acidity Permanent Solution",
+    "Constipation Relief Delhi",
+    "Gut Health Clinic",
+    "Stomach Pain Natural Treatment"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>All disease begins in the gut. - Hippocrates.</strong></p><p class=\"mb-4\">If you wake up with a heavy stomach, rely on antacids, or plan your day around bathroom visits, your foundation of health is shaky. The digestive system is not just a food pipe; it is your 'Second Brain'. Imbalances here lead to anxiety, skin issues, autoimmune diseases, and chronic fatigue.</p><p class=\"mb-4\">Our <strong>Digestive Disorder Treatment</strong> focuses on the 4 R's: Remove (toxins), Replace (enzymes), Reinoculate (good bacteria), and Repair (gut lining). We successfully treat conditions like IBS (Irritable Bowel Syndrome), GERD (Acid Reflux), Chronic Constipation, and Bloating.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Understanding the Gut-Brain Axis",
+      "content": "<p class=\"mb-4\">Have you noticed that when you are stressed, your stomach acts up? This is the Gut-Brain connection. Our treatment protocols address both the physical digestion and the mental stress that often drives conditions like IBS.</p>"
+    },
+    {
+      "title": "Natural Therapies for a Happy Gut",
+      "content": "<h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Hydrotherapy (Hip Bath & Enema)</h4><p class=\"mb-4\">A <strong>Hip Bath</strong> diverts blood flow to the pelvic region, relieving constipation and gas. A therapeutic <strong>Enema</strong> (using water, buttermilk, or oil) helps in washing out old fecal matter that releases toxins into the bloodstream.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Mud Packs</h4><p class=\"mb-4\">Applying a cold mud pack to the abdomen is a miracle cure for Acidity and Ulcers. It absorbs the internal heat (Pitta) and soothes the inflamed lining of the stomach.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Diet: The Elimination Protocol</h4><p class=\"mb-4\">We help you identify food intolerances (gluten, dairy, soy) that might be silently damaging your gut. We then introduce healing foods like bone broth (or vegan equivalent), fermented foods (kanji), and soothing teas.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is an enema safe/habit forming?",
+      "answer": "Therapeutic enemas given for a short duration during a detox are not habit-forming. They are different from laxatives which irritate the bowel. Enemas mechanically clean the colon."
+    },
+    {
+      "question": "Can you cure severe acidity/GERD?",
+      "answer": "Yes. By correcting the stomach acid levels (often low acid causes reflux, not high!) and strengthening the esophageal sphincter, we can reverse GERD."
+    }
+  ],
+  "relatedConditions": ["stress-management", "hypertension"],
+  "relatedTreatments": ["diet-therapy", "hydrotherapy", "mud-therapy"]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "arthritis",
+  "title": "Arthritis & Pain Relief Program",
+  "metaTitle": "Arthritis Treatment in Delhi | Natural Pain Relief for Joints",
+  "metaDescription": "Specialized Naturopathy treatment for Osteoarthritis, Rheumatoid Arthritis, and Chronic Pain in Delhi. Therapies include Potli Massage, Mud Packs, and Anti-inflammatory Diet.",
+  "keywords": [
+    "Arthritis Treatment Delhi",
+    "Knee Pain Natural Cure",
+    "Rheumatoid Arthritis Naturopathy",
+    "Joint Pain Relief Delhi",
+    "Potli Massage",
+    "Back Pain Treatment",
+    "Spondylitis Cure Natural"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Pain is not a lifestyle. Movement is life. Don't let Arthritis stop you.</strong></p><p class=\"mb-4\">Arthritis and chronic joint pain can debilitatingly affect your quality of life. Whether it is the wear-and-tear of Osteoarthritis or the inflammatory fire of Rheumatoid Arthritis, the conventional solution of painkillers and steroids often comes with severe side effects. At Delhi Wellness Haven, we offer a safe, effective, and non-invasive alternative.</p><p class=\"mb-4\">Our <strong>Arthritis & Pain Relief Program</strong> is designed to reduce inflammation, lubricate the joints, and strengthen the supporting muscles. We use a combination of thermal therapies, herbal applications, and specific exercises to restore your mobility.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Understanding Your Pain: Types of Arthritis",
+      "content": "<p class=\"mb-4\">Treatment protocols differ based on the type of arthritis:</p><div class=\"grid md:grid-cols-2 gap-6 my-6\"><div class=\"bg-orange-50 p-6 rounded-lg border border-orange-100\"><h4 class=\"font-bold text-orange-800 mb-2\">Osteoarthritis (OA)</h4><p class=\"text-sm text-stone-700\">Degenerative 'wear and tear'. Cartilage breaks down, bones rub together. Common in knees and hips. Needs <strong>Lubrication & Regeneration</strong>.</p></div><div class=\"bg-red-50 p-6 rounded-lg border border-red-100\"><h4 class=\"font-bold text-red-800 mb-2\">Rheumatoid Arthritis (RA)</h4><p class=\"text-sm text-stone-700\">Autoimmune disease. The body attacks its own joints. Causes swelling and heat. Needs <strong>Immune Modulation & Detox</strong>.</p></div></div>"
+    },
+    {
+      "title": "Our Therapeutic Arsenal for Pain Relief",
+      "content": "<p class=\"mb-4\">We use nature's elements to fight pain:</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Potli Massage (Herbal Bolus Therapy)</h4><p class=\"mb-4\">Small herbal pouches (Potlis) dipped in hot medicated oil are patted over the painful joints. The heat reduces stiffness, while the herbs penetrate the skin to reduce inflammation locally. This is excellent for Spondylitis and Back Pain.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Mud Therapy (Local Application)</h4><p class=\"mb-4\">For acute inflammation (red, hot, swollen joints), we use cold mud packs. The mud absorbs the excess heat and toxins accumulated in the joint, providing instant relief from throbbing pain.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Steam & Sauna Bath</h4><p class=\"mb-4\">Generalized sweating helps in eliminating metabolic waste (like uric acid) that often crystallizes in joints, causing gout and pain.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">4. Janu Basti (Knee Therapy)</h4><p class=\"mb-4\">A reservoir is made of dough around the knee, and warm medicated oil is pooled in it. This deeply nourishes and lubricates the knee joint, acting like a 'natural knee replacement' strategy for early stages of OA.</p>"
+    },
+    {
+      "title": "Dietary Interventions: The Anti-Inflammatory Diet",
+      "content": "<p class=\"mb-4\">What you eat directly affects how much you hurt.</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Eliminate Triggers:</strong> Nightshades (tomatoes, eggplant) and sour foods (curd, pickles) can aggravate pain in some people. We help you identify your triggers.</li><li><strong>Omega-3 Rich Foods:</strong> Flaxseeds and walnuts act as natural painkillers.</li><li><strong>Turmeric & Ginger:</strong> High doses of Curcumin (in turmeric) are proven to be as effective as some NSAIDs without the side effects.</li><li><strong>Alkaline Diet:</strong> Reducing acidity in the body prevents calcium leaching from bones.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Naturopathy cure Rheumatoid Arthritis?",
+      "answer": "RA is an autoimmune condition. While a complete 'cure' is difficult, we can induce long-term remission, meaning you can live without pain and minimal medication."
+    },
+    {
+      "question": "Is massage safe for inflamed joints?",
+      "answer": "In acute inflammation (swelling/heat), deep tissue massage is avoided. We use gentle lymphatic drainage or cooling applications. Once inflammation subsides, massage helps restore mobility."
+    }
+  ],
+  "relatedConditions": ["obesity", "stress-management"],
+  "relatedTreatments": ["massage-therapy", "mud-therapy", "hydrotherapy", "acupuncture"]
+}

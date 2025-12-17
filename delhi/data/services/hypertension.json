@@ -1,0 +1,47 @@
+{
+  "id": "hypertension",
+  "title": "Hypertension Management",
+  "metaTitle": "Hypertension Management in Delhi | Natural High BP Treatment",
+  "metaDescription": "Control High Blood Pressure naturally with our Hypertension Management program in Delhi. Uses Yoga, Shirodhara, DASH diet, and lifestyle changes to reduce BP without heavy medication.",
+  "keywords": [
+    "Hypertension Treatment Delhi",
+    "High BP Natural Cure",
+    "Ayurvedic Treatment for Hypertension",
+    "Yoga for High Blood Pressure",
+    "DASH Diet Plan Delhi",
+    "Stress Management for BP",
+    "Shirodhara for Hypertension"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Hypertension is often called the 'Silent Killer', but it's really a loud cry for help from your blood vessels.</strong></p><p class=\"mb-4\">High blood pressure is not just a number to be suppressed; it is a dynamic response of your body to its environment. Whether it's the stiffening of arteries, chronic stress, or fluid retention, the root cause varies from person to person. At Delhi Wellness Haven, we don't believe in a one-pill-fits-all approach.</p><p class=\"mb-4\">Our <strong>Hypertension Management Program</strong> focuses on dilating your blood vessels naturally, reducing the workload on your heart, and calming the sympathetic nervous system. By integrating dietary changes (like the DASH protocol), therapeutic relaxation, and specific yoga practices, we help you achieve sustainable blood pressure control.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Why Blood Pressure Rises: The Root Causes",
+      "content": "<p class=\"mb-4\">Understanding the 'Why' is the first step to the 'Cure'. In most cases of essential hypertension, the following factors play a key role:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Sympathetic Overdrive:</strong> Chronic stress keeps the body in 'Fight or Flight' mode, constricting blood vessels.</li><li><strong>Sodium-Potassium Imbalance:</strong> High salt intake coupled with low vegetable (potassium) intake leads to fluid retention.</li><li><strong>Arterial Stiffness:</strong> Lack of exercise and poor diet causes blood vessels to lose their elasticity.</li><li><strong>Insulin Resistance:</strong> High insulin levels cause kidneys to hoard sodium, increasing pressure.</li></ul>"
+    },
+    {
+      "title": "Our Multi-Modality Treatment Plan",
+      "content": "<p class=\"mb-4\">We tackle hypertension from three angles: <strong>Dietary, Physical, and Mental.</strong></p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. The Natural DASH Diet</h4><p class=\"mb-4\">We customize the Dietary Approaches to Stop Hypertension (DASH) for the Indian palate. This involves:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>High Potassium Foods:</strong> Coconut water, bananas, spinach, and sweet potatoes to naturally flush out excess sodium.</li><li><strong>Nitric Oxide Boosters:</strong> Beetroot juice and pomegranate to naturally dilate blood vessels.</li><li><strong>Salt Regulation:</strong> Switching to mineral-rich rock salt (Sendha Namak) in controlled quantities.</li><li><strong>Magnesium Rich Diet:</strong> Seeds and nuts to relax arterial muscles.</li></ul><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Stress Reduction Therapies</h4><p class=\"mb-4\">Since stress is a major trigger, our therapies focus on deep relaxation:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Shirodhara:</strong> The continuous pouring of warm oil on the forehead induces a 'trance-like' state, significantly lowering blood pressure instantly.</li><li><strong>Takradhara:</strong> Similar to Shirodhara but using medicated buttermilk, excellent for cooling the system (Pitta regulation).</li><li><strong>Head & Foot Massage:</strong> Reflexology points in the feet can trigger a relaxation response in the whole body.</li></ul><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Yoga for Heart Health</h4><p class=\"mb-4\">Specific <em>asanas</em> and <em>pranayamas</em> are prescribed to lower heart rate and pressure:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Chandra Bhedana Pranayama:</strong> Left-nostril breathing to activate the parasympathetic (calming) nervous system.</li><li><strong>Shavasana (Corpse Pose):</strong> Guided relaxation (Yoga Nidra) is proven to reduce systolic BP.</li><li><strong>Legs-Up-The-Wall Pose:</strong> Reduces strain on the heart by aiding venous return.</li></ul>"
+    },
+    {
+      "title": "Lifestyle Modifications for Long-Term Control",
+      "content": "<p class=\"mb-4\">We don't just treat you at the clinic; we change how you live at home.</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Sleep Optimization:</strong> Ensuring 7-8 hours of sleep to allow cardiovascular recovery.</li><li><strong>Weight Management:</strong> Losing even 5% of body weight can significantly drop BP numbers.</li><li><strong>Earthing/Grounding:</strong> Walking barefoot on grass to reduce electrical stress in the body.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I stop my BP medicine immediately?",
+      "answer": "No. Sudden withdrawal can be dangerous. We work on gradually tapering the dose as your natural blood pressure readings improve, always in consultation with your doctor."
+    },
+    {
+      "question": "Is salt completely banned?",
+      "answer": "Not necessarily. We focus on the quality of salt and the balance of electrolytes. Completely eliminating salt can sometimes be harmful. We find the right balance for your body."
+    },
+    {
+      "question": "How often do I need therapies?",
+      "answer": "For hypertension, we recommend a cluster of therapies (like Shirodhara) for 7-14 days consecutively to break the stress cycle, followed by maintenance sessions."
+    }
+  ],
+  "relatedConditions": ["stress-management", "obesity", "diabetes"],
+  "relatedTreatments": ["shirodhara", "yoga-therapy", "massage-therapy"]
+}
