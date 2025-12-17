@@ -1,0 +1,39 @@
+{
+  "id": "pcod-pcos",
+  "title": "PCOD / PCOS Treatment Program",
+  "metaTitle": "PCOD & PCOS Treatment in Delhi | Natural Hormonal Balance",
+  "metaDescription": "Reverse PCOD/PCOS naturally with our holistic program in Delhi. Focuses on weight loss, seed cycling, yoga for fertility, and diet correction. Restore your periods without hormonal pills.",
+  "keywords": [
+    "PCOD Treatment Delhi",
+    "PCOS Natural Cure",
+    "Irregular Periods Treatment",
+    "Weight Loss for PCOS",
+    "Hormonal Imbalance Treatment",
+    "Seed Cycling Delhi",
+    "Infertility Natural Treatment"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Hormonal balance is your body's natural rhythm. Let's tune it back to perfection.</strong></p><p class=\"mb-4\">Polycystic Ovarian Syndrome (PCOS) or Disease (PCOD) is now affecting 1 in 5 women in India. It is not just a reproductive issue; it is a metabolic disorder closely linked to Insulin Resistance. The conventional route of prescribing contraceptive pills gives you a 'withdrawal bleed', not a real period, and often masks the problem while it worsens internally.</p><p class=\"mb-4\">Our <strong>PCOD/PCOS Reversal Program</strong> treats the root causes: Insulin Resistance, Chronic Inflammation, and Adrenal Stress. We help you shed the stubborn weight, clear your skin (acne), stop hair fall, and most importantly, restore your natural, ovulatory menstrual cycle.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "The Root Cause: It's Not Just About Ovaries",
+      "content": "<p class=\"mb-4\">PCOS is often a symptom of a deeper metabolic chaos.</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Insulin Resistance:</strong> High insulin levels stimulate the ovaries to produce excess Testosterone (male hormone), leading to acne, facial hair, and stopped periods.</li><li><strong>Gut Health:</strong> Poor gut bacteria can lead to re-absorption of estrogen, causing hormonal dominance.</li><li><strong>Stress (Cortisol):</strong> High stress steals the raw material (Progesterone) needed for a healthy cycle.</li></ul>"
+    },
+    {
+      "title": "Naturopathic Protocols for Hormonal Harmony",
+      "content": "<h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Seed Cycling Protocol</h4><p class=\"mb-4\">We guide you on using specific seeds to mimic the body's natural estrogen and progesterone phases.</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Phase 1 (Follicular):</strong> Flax & Pumpkin seeds to boost Estrogen and clear excess hormones.</li><li><strong>Phase 2 (Luteal):</strong> Sesame & Sunflower seeds to boost Progesterone and support implantation/period health.</li></ul><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Mud Packs for Pelvic Health</h4><p class=\"mb-4\">Applying a cold mud pack to the lower abdomen helps in reducing pelvic congestion and inflammation in the ovaries/uterus. It is highly effective for reducing period pain and regulating flow.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Yoga for Fertility</h4><p class=\"mb-4\">Certain asanas increase blood flow to the reproductive organs:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Baddhakonasana (Butterfly Pose):</strong> Opens up the pelvic region.</li><li><strong>Surya Namaskar:</strong> Improves overall metabolism and weight loss.</li><li><strong>Supta Baddhakonasana:</strong> Restorative pose for stress relief.</li></ul><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">4. Diet Correction</h4><p class=\"mb-4\">A low-GI diet is non-negotiable for PCOS. Eliminating dairy and gluten is often recommended as they can be inflammatory triggers for many women with hormonal issues.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I get pregnant naturally with PCOS?",
+      "answer": "Yes! Many of our patients conceive naturally after their cycles become regular and ovulation is restored through our program."
+    },
+    {
+      "question": "Will my facial hair (hirsutism) go away?",
+      "answer": "As insulin levels drop and testosterone reduces, new hair growth slows down and becomes finer. Existing coarse hair may need removal, but the 'growth' stops."
+    }
+  ],
+  "relatedConditions": ["obesity", "diabetes", "stress-management"],
+  "relatedTreatments": ["diet-therapy", "yoga-therapy", "mud-therapy"]
+}

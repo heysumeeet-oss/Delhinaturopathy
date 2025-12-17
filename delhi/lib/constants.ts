@@ -42,7 +42,7 @@ export const PRINCIPLES: PrincipleItem[] = [
 export const TREATMENTS: ServiceItem[] = [
   {
     id: 'mud-therapy',
-    title: 'Therapeutic Earth Packs (Mud Therapy)',
+    title: 'Mud Therapy',
     shortDescription: 'Detoxifying mud applications to cool the body, absorb toxins, and improve skin vitality.',
     fullDescription: [
       "Our Therapeutic Earth Packs utilize mineral-rich soil that has been carefully sourced and treated. This ancient therapy is renowned for its ability to draw out toxins and cool the body's internal systems.",
@@ -65,7 +65,7 @@ export const TREATMENTS: ServiceItem[] = [
   },
   {
     id: 'hydrotherapy',
-    title: 'Curative Water Treatments (Hydrotherapy)',
+    title: 'Hydrotherapy',
     shortDescription: 'Using water at varying temperatures to boost immunity and stimulate the body’s vital functions.',
     fullDescription: [
       "Water is the essence of life and a powerful healing medium. Our Curative Water Treatments use the thermal and mechanical effects of water to stimulate the immune system and detoxify the body.",
@@ -99,7 +99,7 @@ export const TREATMENTS: ServiceItem[] = [
   },
   {
     id: 'detox',
-    title: 'Purification Programs',
+    title: 'Detoxification Programs',
     shortDescription: 'Systematic cleansing protocols to reset your digestive system and boost energy levels.',
     fullDescription: [
       "Our Purification Programs are designed to give your digestive system a much-needed rest. By removing the burden of heavy digestion, your body can redirect energy towards healing and repair.",
@@ -116,7 +116,7 @@ export const TREATMENTS: ServiceItem[] = [
   },
   {
     id: 'yoga-therapy',
-    title: 'Mindful Movement (Yoga Therapy)',
+    title: 'Yoga Therapy',
     shortDescription: 'Customized yoga sequences designed to address specific ailments and promote mental peace.',
     fullDescription: [
       "Mindful Movement differs from a general yoga class. Here, we prescribe specific asanas, breathing techniques (Pranayama), and meditation practices to target your unique health challenges.",
@@ -166,8 +166,31 @@ export const TREATMENTS: ServiceItem[] = [
     iconName: 'Flower'
   },
   {
+    id: 'acupuncture',
+    title: 'Acupuncture',
+    shortDescription: 'Traditional therapy using fine needles to stimulate energy flow and healing.',
+    fullDescription: [
+        "Acupuncture is a key component of traditional medicine that involves inserting very thin needles into specific points on the body.",
+        "It stimulates sensory nerves under the skin and in the muscles, resulting in the body producing natural substances like pain-relieving endorphins."
+    ],
+    benefits: [
+        "Relieves chronic pain (back, neck, joint).",
+        "Treats headaches and migraines.",
+        "Reduces stress and anxiety.",
+        "Improves sleep quality.",
+        "Boosts immune system."
+    ],
+    procedure: [
+        "Consultation to identify problem areas.",
+        "Insertion of sterile, single-use needles.",
+        "Relaxation period of 20-30 minutes.",
+        "Gentle removal of needles."
+    ],
+    iconName: 'Activity'
+  },
+  {
     id: 'diet-therapy',
-    title: 'Functional Nutrition',
+    title: 'Diet & Nutrition Counseling',
     shortDescription: 'Using the medicinal properties of food to correct imbalances and nourish the body at a cellular level.',
     fullDescription: [
       "Functional Nutrition focuses on the idea that food is information for our genes. We create personalized dietary plans that provide the right raw materials for your body to function optimally.",
@@ -187,7 +210,7 @@ export const TREATMENTS: ServiceItem[] = [
 export const CONDITIONS: ConditionItem[] = [
   {
     id: 'diabetes',
-    title: 'Diabetes Reversal Support',
+    title: 'Diabetes Reversal Program',
     shortDescription: 'Integrative strategies to regulate insulin sensitivity and manage blood sugar naturally.',
     symptoms: ['Excessive thirst', 'Frequent urination', 'Fatigue', 'Slow healing of cuts', 'Blurred vision'],
     causes: ['Insulin resistance', 'Poor diet', 'Sedentary lifestyle', 'Genetic predisposition', 'Chronic stress'],
@@ -202,7 +225,7 @@ export const CONDITIONS: ConditionItem[] = [
   },
   {
     id: 'hypertension',
-    title: 'Cardiovascular Wellness',
+    title: 'Hypertension Management',
     shortDescription: 'Natural protocols to maintain healthy blood pressure and heart function.',
     symptoms: ['Headaches', 'Palpitations', 'Breathlessness', 'Nosebleeds', 'Anxiety'],
     causes: ['High salt intake', 'Chronic stress', 'Lack of exercise', 'Obesity', 'Smoking/Alcohol'],
@@ -217,7 +240,7 @@ export const CONDITIONS: ConditionItem[] = [
   },
   {
     id: 'digestive-disorders',
-    title: 'Digestive Balance',
+    title: 'Digestive Disorder Treatment',
     shortDescription: 'Healing the gut to resolve issues like acidity, bloating, and IBS.',
     symptoms: ['Abdominal pain', 'Bloating', 'Acid reflux', 'Irregular bowel movements', 'Fatigue'],
     causes: ['Processed foods', 'Stress', 'Food sensitivities', 'Antibiotic use', 'Dehydration'],
@@ -232,7 +255,7 @@ export const CONDITIONS: ConditionItem[] = [
   },
   {
     id: 'arthritis',
-    title: 'Joint Health & Mobility',
+    title: 'Arthritis & Pain Relief',
     shortDescription: 'Reducing inflammation and pain to restore movement and flexibility.',
     symptoms: ['Joint pain', 'Stiffness (especially morning)', 'Swelling', 'Reduced range of motion', 'Warmth in joints'],
     causes: ['Inflammation', 'Autoimmune response', 'Degeneration', 'Obesity', 'Previous injury'],
@@ -247,7 +270,7 @@ export const CONDITIONS: ConditionItem[] = [
   },
   {
     id: 'obesity',
-    title: 'Sustainable Weight Loss',
+    title: 'Weight Loss Program',
     shortDescription: 'Achieving your ideal weight through metabolic balance and lifestyle change, not crash diets.',
     symptoms: ['Excess body weight', 'Low energy', 'Breathlessness on exertion', 'Joint pain', 'Snoring/Sleep apnea'],
     causes: ['Caloric surplus', 'Hormonal imbalances', 'Emotional eating', 'Lack of sleep', 'Sedentary habits'],
@@ -259,6 +282,36 @@ export const CONDITIONS: ConditionItem[] = [
       "Detox therapies to improve liver function."
     ],
     relatedTreatments: ['diet-therapy', 'yoga-therapy', 'detox']
+  },
+  {
+    id: 'pcod-pcos',
+    title: 'PCOD/PCOS Treatment',
+    shortDescription: 'Holistic treatment for hormonal balance and reproductive health.',
+    symptoms: ['Irregular periods', 'Weight gain', 'Acne', 'Hair thinning', 'Mood swings'],
+    causes: ['Hormonal imbalance', 'Insulin resistance', 'Lifestyle factors', 'Stress', 'Inflammation'],
+    naturopathicTreatment: [
+        "Seed cycling for hormone balance.",
+        "Low-glycemic diet.",
+        "Yoga for pelvic health.",
+        "Mud packs for abdominal cooling.",
+        "Stress management techniques."
+    ],
+    relatedTreatments: ['diet-therapy', 'yoga-therapy', 'mud-therapy']
+  },
+  {
+    id: 'stress-management',
+    title: 'Stress & Anxiety Management',
+    shortDescription: 'Natural therapies to calm the mind and restore nervous system balance.',
+    symptoms: ['Anxiety', 'Insomnia', 'Muscle tension', 'Fatigue', 'Irritability'],
+    causes: ['Work pressure', 'Emotional trauma', 'Poor sleep', 'Nutritional deficiencies', 'Lack of downtime'],
+    naturopathicTreatment: [
+        "Shirodhara for deep relaxation.",
+        "Meditation and Pranayama.",
+        "Massage therapy.",
+        "Adaptogenic herbs (if applicable).",
+        "Hydrotherapy for nervous system regulation."
+    ],
+    relatedTreatments: ['shirodhara', 'yoga-therapy', 'massage-therapy']
   }
 ];
 

@@ -1,0 +1,33 @@
+{
+  "id": "mud-therapy",
+  "title": "Mud Therapy (Earth Cure)",
+  "metaTitle": "Mud Therapy Centre Delhi | Natural Detox & Cooling",
+  "metaDescription": "Experience the healing power of earth with Mud Therapy in Delhi. Full body mud bath and packs for skin disease, digestion, and stress relief.",
+  "keywords": [
+    "Mud Therapy Delhi",
+    "Mud Bath Benefits",
+    "Naturopathy Mud Pack",
+    "Skin Disease Natural Cure",
+    "Detox Mud Treatment"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Of the five elements, Earth is the foundation. It heals, cools, and absorbs.</strong></p><p class=\"mb-4\">Mud Therapy involves applying moist, mineral-rich earth to the body. It might sound simple, but the therapeutic effects are profound. Mud has the unique property of holding moisture and coolness for a long time. When applied to the body, it draws out toxic heat (inflammation) and absorbs morbid matter through the pores.</p><p class=\"mb-4\">At Delhi Wellness Haven, we use specially treated clay from 3-4 feet below the ground, which is free from impurities and rich in minerals.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Types of Mud Applications",
+      "content": "<h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Mud Packs (Local Application)</h4><p class=\"mb-4\">Small packs applied to specific organs:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Eye Pack:</strong> Relaxes eye muscles, improves vision, and cures conjunctivitis/styes.</li><li><strong>Abdominal Pack:</strong> The most common application. It relieves indigestion, constipation, and reduces menstrual cramps.</li><li><strong>Face Pack:</strong> For acne, oily skin, and improving complexion.</li></ul><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Mud Bath (Full Body)</h4><p class=\"mb-4\">The patient is covered in mud from head to toe and sits in the sun. As the mud dries, it tightens the skin and draws out toxins. It is excellent for skin diseases like Psoriasis and Eczema, as well as general detoxification.</p>"
+    },
+    {
+      "title": "Benefits of Mud",
+      "content": "<ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Cooling:</strong> It is the best natural coolant for the body.</li><li><strong>Absorbent:</strong> Like a magnet for toxins.</li><li><strong>Anti-inflammatory:</strong> Reduces swelling in joints.</li><li><strong>Relaxing:</strong> Calms the nervous system instantly.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the mud hygienic?",
+      "answer": "Yes. The mud is sourced from deep underground, dried in the sun, powdered, and sieved to remove impurities. We never re-use mud for different patients to prevent cross-infection."
+    }
+  ],
+  "relatedConditions": ["digestive-disorders", "pcod-pcos", "arthritis", "diabetes"],
+  "relatedTreatments": ["hydrotherapy", "detox"]
+}

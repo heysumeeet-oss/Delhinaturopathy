@@ -1,0 +1,38 @@
+{
+  "id": "stress-management",
+  "title": "Stress & Anxiety Management",
+  "metaTitle": "Stress & Anxiety Management Delhi | Natural Mental Health",
+  "metaDescription": "Combat stress, anxiety, and insomnia naturally in Delhi. Our program uses Shirodhara, Meditation, Yoga Nidra, and Massage to reset your nervous system.",
+  "keywords": [
+    "Stress Management Delhi",
+    "Anxiety Cure Natural",
+    "Depression Treatment Naturopathy",
+    "Insomnia Cure Delhi",
+    "Shirodhara for Stress",
+    "Meditation Classes Delhi"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Peace is not a luxury; it is a biological necessity.</strong></p><p class=\"mb-4\">In the hustle of Delhi life, chronic stress has become the norm. But this constant 'Fight or Flight' state destroys your health, leading to heart disease, weight gain, and mental burnout. Anxiety and Insomnia are symptoms of a nervous system that has forgotten how to switch off.</p><p class=\"mb-4\">Our <strong>Stress & Anxiety Management Program</strong> is a sanctuary for your mind. We use powerful ancient therapies that work directly on the neuro-hormonal system to lower Cortisol (stress hormone) and boost Serotonin (happiness hormone).</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "The Physiology of Calm",
+      "content": "<p class=\"mb-4\">You cannot simply 'think' your way out of stress. You need to physically shift your body from Sympathetic (alert) to Parasympathetic (rest & digest) dominance. Our therapies do exactly that.</p>"
+    },
+    {
+      "title": "Signature Therapies",
+      "content": "<h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Shirodhara (Third Eye Therapy)</h4><p class=\"mb-4\">The crown jewel of stress relief. Warm medicated oil is poured in a rhythmic oscillation over the forehead. It creates a vibration that calms the hypothalamus and pituitary gland. Patients often enter a state of deep psychic sleep (Turiya) during the session.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Yoga Nidra & Meditation</h4><p class=\"mb-4\">We teach you the art of conscious relaxation. 20 minutes of Yoga Nidra is said to be equivalent to 4 hours of deep sleep.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Massage & Reflexology</h4><p class=\"mb-4\">Touching the skin releases Oxytocin (the bonding hormone) which counters stress. Foot reflexology specifically targets the solar plexus point to release held tension.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can this help with panic attacks?",
+      "answer": "Yes. By teaching breath control (Pranayama) and regulating the nervous system, the frequency and intensity of panic attacks reduce significantly."
+    },
+    {
+      "question": "Do I need to take anti-depressants?",
+      "answer": "If you are already on medication, do not stop. Our therapies work alongside them. Over time, as you feel better, your psychiatrist may lower your dose."
+    }
+  ],
+  "relatedConditions": ["hypertension", "digestive-disorders", "pcod-pcos"],
+  "relatedTreatments": ["shirodhara", "yoga-therapy", "massage-therapy", "acupuncture"]
+}

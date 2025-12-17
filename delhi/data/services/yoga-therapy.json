@@ -1,0 +1,34 @@
+{
+  "id": "yoga-therapy",
+  "title": "Medical Yoga Therapy",
+  "metaTitle": "Therapeutic Yoga Classes Delhi | Disease Specific Yoga",
+  "metaDescription": "Not just exercise, but medicine. specialized Yoga Therapy in Delhi for Diabetes, Back Pain, Thyroid, and Hypertension. Certified Yoga Doctors.",
+  "keywords": [
+    "Medical Yoga Delhi",
+    "Therapeutic Yoga Classes",
+    "Yoga for Back Pain Delhi",
+    "Yoga for Diabetes",
+    "Pranayama Classes Delhi",
+    "Meditation Centre"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Yoga is not about touching your toes; it is about what you learn on the way down.</strong></p><p class=\"mb-4\">In modern times, Yoga is often reduced to gymnastics. However, traditionally, Yoga was a science of healing. Medical Yoga Therapy applies specific Asanas, Pranayamas, and Kriyas to treat specific diseases. It modifies the classical poses to suit the patient's limitations and needs.</p><p class=\"mb-4\">At Delhi Wellness Haven, our sessions are one-on-one or in small groups, led by doctors who understand anatomy and pathology.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "How Yoga Heals",
+      "content": "<p class=\"mb-4\">Yoga works on the physical, energetic (Pranic), and mental levels simultaneously.</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Endocrine Stimulation:</strong> Poses like Sarvangasana press the thyroid gland, regulating metabolism.</li><li><strong>Internal Massage:</strong> Twisting poses squeeze the liver and pancreas, flushing out stagnant blood.</li><li><strong>Nervous System Reset:</strong> Forward bends and slow breathing activate the parasympathetic nervous system, lowering stress.</li></ul>"
+    },
+    {
+      "title": "Specialized Modules",
+      "content": "<div class=\"grid md:grid-cols-2 gap-6 my-6\"><div class=\"bg-yellow-50 p-6 rounded-lg border border-yellow-100\"><h4 class=\"font-bold text-yellow-800 mb-2\">Yoga for Diabetes</h4><p class=\"text-sm text-stone-700\">Focus on abdominal compression (Mandukasana, Ardha Matsyendrasana) to stimulate insulin.</p></div><div class=\"bg-purple-50 p-6 rounded-lg border border-purple-100\"><h4 class=\"font-bold text-purple-800 mb-2\">Yoga for Back Pain</h4><p class=\"text-sm text-stone-700\">Gentle extension (Bhujangasana) and traction (Markatasana) to heal discs.</p></div><div class=\"bg-rose-50 p-6 rounded-lg border border-rose-100\"><h4 class=\"font-bold text-rose-800 mb-2\">Yoga for Women</h4><p class=\"text-sm text-stone-700\">Pelvic openers (Baddhakonasana) for PCOD and fertility.</p></div><div class=\"bg-emerald-50 p-6 rounded-lg border border-emerald-100\"><h4 class=\"font-bold text-emerald-800 mb-2\">Pranayama & Meditation</h4><p class=\"text-sm text-stone-700\">Breath work for Asthma, Anxiety, and Hypertension.</p></div></div>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "I am stiff/old/overweight. Can I do Yoga?",
+      "answer": "Absolutely. Yoga Therapy is about adaptation. We use props like chairs, belts, and bolsters to make every pose accessible to you, regardless of your flexibility."
+    }
+  ],
+  "relatedConditions": ["diabetes", "hypertension", "arthritis", "stress-management", "obesity", "pcod-pcos"],
+  "relatedTreatments": ["diet-therapy", "massage-therapy"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "obesity",
+  "title": "Sustainable Weight Loss Program",
+  "metaTitle": "Weight Loss Centre Delhi | Natural Obesity Treatment",
+  "metaDescription": "Lose weight naturally and keep it off. Our Obesity Treatment in Delhi targets slow metabolism, hormonal blocks, and emotional eating. No crash diets, just sustainable health.",
+  "keywords": [
+    "Weight Loss Delhi",
+    "Obesity Treatment Naturopathy",
+    "Slimming Centre Delhi",
+    "Fat Loss Natural",
+    "Metabolism Boosting Therapy",
+    "Diet Chart for Weight Loss",
+    "Udwarthanam Massage Delhi"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Weight loss is not about starvation; it's about nourishment and metabolic balance.</strong></p><p class=\"mb-4\">If you have tried every diet under the sun—Keto, GM, intermittent fasting—and gained the weight back, it's because you treated the symptom (fat), not the cause (metabolism). At Delhi Wellness Haven, we understand that obesity is a complex interplay of hormones, gut health, and psychology.</p><p class=\"mb-4\">Our <strong>Sustainable Weight Loss Program</strong> is designed to reset your metabolic set-point. We don't just help you lose kilos; we help you gain energy, confidence, and health. We use Udwarthanam (dry powder massage), steam therapies, and a scientific nutrition plan to turn your body into a fat-burning machine.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "Why Diets Fail: The Metabolic Adaptation",
+      "content": "<p class=\"mb-4\">When you starve yourself, your body thinks there is a famine. It slows down your metabolism to save energy. Once you eat normally again, you gain weight faster than before. This is the Yo-Yo effect.</p><p class=\"mb-4\"><strong>Our Approach is Different:</strong></p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li>We feed your muscles (which burn fat) and starve your fat cells (via insulin control).</li><li>We correct hormonal blocks like Hypothyroidism and PCOD that make weight loss impossible.</li><li>We address emotional eating triggers.</li></ul>"
+    },
+    {
+      "title": "Therapies for Fat Loss",
+      "content": "<h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">1. Udwarthanam (Dry Powder Massage)</h4><p class=\"mb-4\">A vigorous massage using herbal powders that creates friction and heat. It liquefies subcutaneous fat, improves lymphatic drainage, and reduces cellulite. It is one of the most effective therapies for inch loss.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">2. Steam Bath & Sauna</h4><p class=\"mb-4\">Passive sweating increases heart rate and metabolic rate. It helps in detoxifying the fat cells, as toxins are often stored in adipose tissue.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">3. Enema & Colon Cleansing</h4><p class=\"mb-4\">A clogged colon leads to poor nutrient absorption and lethargy. Cleansing the colon often leads to an immediate drop in bloating and water weight, giving a kickstart to the journey.</p><h4 class=\"text-lg font-bold text-stone-800 mt-6 mb-3\">4. Yoga for Core Strength</h4><p class=\"mb-4\">We focus on dynamic yoga (Power Yoga / Surya Namaskar) to build lean muscle mass. Muscle tissue burns more calories at rest than fat tissue.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much weight can I expect to lose?",
+      "answer": "A healthy, sustainable rate is 3-5 kgs per month. Losing faster than this often means muscle loss, which damages metabolism long-term."
+    },
+    {
+      "question": "Do you give diet pills?",
+      "answer": "Absolutely not. We rely on natural herbs (like Triphala, Guggul) and food as medicine."
+    }
+  ],
+  "relatedConditions": ["diabetes", "pcod-pcos", "hypertension"],
+  "relatedTreatments": ["massage-therapy", "diet-therapy", "yoga-therapy", "detox"]
+}

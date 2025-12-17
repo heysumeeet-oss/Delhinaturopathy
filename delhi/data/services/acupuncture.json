@@ -1,0 +1,42 @@
+{
+  "id": "acupuncture",
+  "title": "Acupuncture Therapy",
+  "metaTitle": "Acupuncture Clinic Delhi | Pain Relief & Energy Balance",
+  "metaDescription": "Best Acupuncture treatment in Delhi by certified experts. Effective for Migraine, Back Pain, Sciatica, and Stress. Sterile, safe, and painless therapy.",
+  "keywords": [
+    "Acupuncture Delhi",
+    "Best Acupuncturist Delhi",
+    "Pain Management Acupuncture",
+    "Sciatica Treatment Delhi",
+    "Migraine Natural Cure",
+    "Dry Needling Delhi"
+  ],
+  "introduction": "<p class=\"lead text-xl text-stone-700 mb-6\"><strong>Unblock your energy, unleash your health.</strong></p><p class=\"mb-4\">Acupuncture is a key component of Traditional Chinese Medicine (TCM) that has been validated by modern science. It involves the insertion of hair-thin, sterile needles into specific points on the body. These points lie on energy channels called 'Meridians'.</p><p class=\"mb-4\">From a modern perspective, Acupuncture stimulates the nervous system to release chemicals like endorphins (natural painkillers) and serotonin (mood boosters) into the muscles, spinal cord, and brain. At Delhi Wellness Haven, we use it primarily for pain management and nervous system regulation.</p>",
+  "tableOfContents": true,
+  "sections": [
+    {
+      "title": "What Can Acupuncture Treat?",
+      "content": "<p class=\"mb-4\">The World Health Organization (WHO) recognizes acupuncture as effective for:</p><ul class=\"list-disc list-inside space-y-2 ml-4 text-stone-700 mb-6\"><li><strong>Chronic Pain:</strong> Back pain, neck pain, osteoarthritis, and knee pain.</li><li><strong>Neurological Issues:</strong> Sciatica, Carpal Tunnel Syndrome, Migraines, and Post-stroke recovery.</li><li><strong>Respiratory Disorders:</strong> Allergic rhinitis and Asthma.</li><li><strong>Emotional Health:</strong> Anxiety, depression, and insomnia.</li></ul>"
+    },
+    {
+      "title": "Does It Hurt?",
+      "content": "<p class=\"mb-4\">This is the most common fear. Acupuncture needles are solid, flexible, and extremely thin—about the width of a human hair. Most people feel a tiny prick or an ant-bite sensation upon insertion, followed by a dull ache or tingling (called 'De Qi') which indicates the energy has been accessed. It is <strong>not</strong> painful like a hypodermic injection.</p>"
+    },
+    {
+      "title": "Our Procedure",
+      "content": "<ol class=\"list-decimal list-inside space-y-4 text-stone-700\"><li class=\"pl-2\"><strong>Mapping:</strong> The doctor identifies the specific meridian points corresponding to your ailment.</li><li class=\"pl-2\"><strong>Insertion:</strong> Single-use, sterile disposable needles are inserted.</li><li class=\"pl-2\"><strong>Stimulation:</strong> Sometimes, gentle heat (Moxibustion) or mild electric pulse (Electro-acupuncture) is applied to the needles for stronger effect.</li><li class=\"pl-2\"><strong>Retention:</strong> You relax with the needles for 20-30 minutes. Many patients fall asleep.</li></ol>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many sessions do I need?",
+      "answer": "Acute conditions (like a stiff neck) might resolve in 2-3 sessions. Chronic issues (like old arthritis) typically require a course of 10-15 sessions."
+    },
+    {
+      "question": "Are there side effects?",
+      "answer": "Side effects are rare. Minor bruising or slight bleeding at the needle site can occur. It is drug-free and safe when performed by a qualified professional."
+    }
+  ],
+  "relatedConditions": ["arthritis", "stress-management", "hypertension"],
+  "relatedTreatments": ["massage-therapy", "acupressure"]
+}
